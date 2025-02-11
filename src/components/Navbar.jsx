@@ -1,30 +1,50 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
-export function Navbar() {
+export function Navbar({}) {
+  const navStyle =
+    "text-lg font-semibold hover:text-blue-500 focus:text-blue-200 transition duration-300 ease-in-out transform hover:scale-110 focus:scale-110";
   return (
-    <nav className="bg-white drop-shadow-lg p-5">
+    <nav className="bg-white drop-shadow-lg p-5 sticky top-0 z-11">
       <ul className="flex space-x-6 items-center justify-center">
         <li>
-          <Link
+          <NavLink
             to="/"
-            className="text-lg font-semibold hover:text-blue-200 focus:text-blue-200 transition duration-300 ease-in-out transform hover:scale-110 focus:scale-110">
+            className={({ isActive }) =>
+              navStyle + (isActive ? " text-blue-500" : "")
+            }>
             Home
-          </Link>
+          </NavLink>
         </li>
         <li>
-          <Link
+          <NavLink
             to="/about"
-            className="text-lg font-semibold hover:text-blue-200 focus:text-blue-200 transition duration-300 ease-in-out transform hover:scale-110 focus:scale-110">
+            className={({ isActive }) =>
+              navStyle + (isActive ? " text-blue-500" : "")
+            }>
+            {" "}
             About
-          </Link>
+          </NavLink>
         </li>
         <li>
-          <Link
+          <NavLink
+            to="/services"
+            className={({ isActive }) =>
+              navStyle + (isActive ? " text-blue-500" : "")
+            }>
+            {" "}
+            Services
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
             to="/contact"
-            className="text-lg font-semibold hover:text-blue-200 focus:text-blue-200 transition duration-300 ease-in-out transform hover:scale-110 focus:scale-110">
+            className={({ isActive }) =>
+              navStyle + (isActive ? " text-blue-500" : "")
+            }>
+            {" "}
             Contact
-          </Link>
+          </NavLink>
         </li>
       </ul>
     </nav>

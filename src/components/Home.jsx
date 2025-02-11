@@ -8,7 +8,7 @@ export function Home() {
           GO Balance Health for Learning and Well-Being
         </h1>
         <img
-          className="absolute w-full h-full object-cover opacity-50"
+          className="absolute w-full h-full object-cover opacity-70 "
           src="./src/assets/home.jpg"
           alt="landscape image"
         />

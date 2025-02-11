@@ -1,4 +1,4 @@
 import React from "react";
 export function Contact() {
-  <div className="p-4">Get in touch on the Contact Page.</div>;
+  return <div className="p-4">Get in touch on the Contact Page.</div>;
 }
