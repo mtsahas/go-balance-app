@@ -20,7 +20,7 @@ export function Services() {
     "Lindamood-Bell Visualizing and Verbalizing Program",
   ];
   return (
-    <div className="flex flex-row flex-wrap p-5 justify-center items-center">
+    <div className="flex flex-row flex-wrap p-5 justify-center items-center bg-gray-100">
       {serviceList.map((service, index) => (
         <Link to="#" key={"link-" + index} className="hover:opacity-70">
           <Card key={"card-" + index} className=" w-80 h-90 flex-col p-5 m-3 ">

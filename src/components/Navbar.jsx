@@ -57,7 +57,15 @@ export function Navbar() {
             Contact
           </NavLink>
         </li>
-
+        <li>
+          <NavLink
+            to="/blog"
+            className={({ isActive }) =>
+              navStyle + (isActive ? " text-blue-500" : "")
+            }>
+            Blog
+          </NavLink>
+        </li>
         <li>
           <SingleLevelDropdownMenu
             buttonLabel="Free Resources"
@@ -78,7 +86,7 @@ export function Navbar() {
             styler={navStyle}
           />
         </li>
-        <li>
+        {/* <li>
           <NavLink
             to="/isthisyou"
             className={({ isActive }) =>
@@ -86,7 +94,7 @@ export function Navbar() {
             }>
             Is This You?
           </NavLink>
-        </li>
+        </li> */}
       </ul>
     </nav>
   );
