@@ -5,32 +5,27 @@ import { ArrowDown } from "lucide-react";
 export function Home() {
   return (
     <>
-      <div className="relative min-h-screen flex flex-col items-center text-center bg-gray-100">
+      <div className="relative min-h-screen flex flex-col items-center text-center bg-orange-50">
         {/* Hero Section */}
         <div className="relative w-full h-screen flex flex-col justify-center items-center">
           <img
-            className="absolute w-full h-full object-cover opacity-60"
+            className="absolute w-full h-full object-cover opacity-90"
             src="./src/assets/home.jpg"
             alt="landscape image"
           />
-          <h1 className="relative text-2xl sm:text-4xl md:text-6xl font-bold text-white shadow-lg p-4 bg-blue-900 rounded-md">
-            GO Balance Health for Learning and Well-Being
+          <h1 className="font-serif relative text-2xl sm:text-4xl md:text-6xl font-bold text-white shadow-lg p-4 bg-green-800 rounded-md">
+            Go Balance Health
           </h1>
-          <p className="relative mt-4 text-md sm:text-xl text-white bg-blue-900 p-4 rounded-md max-w-xl">
-            Getting Back to Basics. Simplify and Take a Step Back. Breathe.
-            There is hope! Never Give Up!
+          <p className="font-serif relative text-2xl sm:text-4xl md:text-4xl font-bold text-white bg-green-800 my-3 shadow-lg p-4 rounded-md">
+            for
           </p>
-        </div>
-
-        {/* Content Section */}
-        <div className="p-8 w-full max-w-4xl">
-          <div className="bg-white p-6 rounded-lg shadow-lg">
-            <p className="text-lg text-gray-700">
-              May you find something useful or informative on this website to
-              help you on your journey of wellness and recovery for you or your
-              loved one.
-            </p>
-          </div>
+          <h1 className="font-serif relative text-2xl sm:text-4xl md:text-6xl font-bold text-white shadow-lg p-4 bg-green-800 rounded-md">
+            Learning and Well-Being
+          </h1>
+          <p className="italic font-serif relative mt-4 text-md sm:text-xl text-white bg-green-800 p-4 rounded-md max-w-xl">
+            Getting back to basics: a holistic approach to addressing and
+            resolving challenges in neurodivergent learners
+          </p>
         </div>
 
         {/* Quote Section */}
@@ -74,15 +69,24 @@ export function Home() {
             Book Now
           </button>
         </div>
-
+        {/* Content Section */}
+        <div className="p-8 w-full max-w-4xl">
+          <div className="bg-white p-6 rounded-lg shadow-lg">
+            <p className="text-lg text-gray-700">
+              May you find something useful or informative on this website to
+              help you on your journey of wellness and recovery for you or your
+              loved one.
+            </p>
+          </div>
+        </div>
         {/* Encouragement Section */}
-        <div className="p-6 mt-6 bg-gray-200 rounded-lg shadow-md text-lg font-semibold text-gray-800 max-w-md">
+        {/* <div className="p-6 mt-6 bg-gray-200 rounded-lg shadow-md text-lg font-semibold text-gray-800 max-w-md">
           <p>Be diligent</p>
           <p>Be faithful</p>
           <p>Be hopeful</p>
           <p>Be persistent</p>
           <p>Be patient</p>
-        </div>
+        </div> */}
       </div>
       {/* Other version of the page */}
       <div className="flex flex-col md:flex-row h-fit p-4 bg-gray-100">
@@ -132,8 +136,10 @@ export function Home() {
           </a>
         </div>
       </div>
-      <p id="next-section"></p>
-      <div className="flex flex-col text-center items-center justify-center">
+
+      <div
+        className="flex flex-col text-center items-center justify-center"
+        id="next-section">
         <IsThisYou />
         {/* Actions Section */}
         <div className="text-center p-8">
@@ -168,12 +174,8 @@ export function Home() {
         </div>
 
         {/* Encouragement Section */}
-        <div className="p-6 mt-6 bg-gray-200 rounded-lg shadow-md text-lg font-semibold text-gray-800 max-w-md">
-          <p>Be diligent</p>
-          <p>Be faithful</p>
-          <p>Be hopeful</p>
-          <p>Be persistent</p>
-          <p>Be patient</p>
+        <div className="p-6 my-6 bg-gray-200 rounded-lg shadow-md text-lg font-semibold text-gray-800">
+          Be diligent. Be faithful. Be hopeful. Be persistent. Be patient.
         </div>
       </div>
     </>

@@ -34,9 +34,9 @@ export function IsThisYou() {
           one's life.
         </p>
         <div className="flex justify-center mt-4">
-          <Button className="bg-blue-600 text-white px-4 py-2 rounded-lg shadow-md hover:bg-blue-700">
+          <button className="bg-blue-500 text-white px-4 py-2 rounded-lg shadow-md hover:bg-blue-400">
             Schedule an Appointment
-          </Button>
+          </button>
         </div>
       </CardContent>
     </Card>

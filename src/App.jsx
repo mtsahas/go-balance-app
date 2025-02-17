@@ -7,6 +7,7 @@ import { Contact } from "./components/Contact.jsx";
 import { Services } from "./components/Services.jsx";
 import { IsThisYou } from "./components/IsThisYou.jsx";
 import { Blog } from "./components/Blog.jsx";
+import { Resources } from "./components/Resources.jsx";
 import "./App.css";
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
             <Route path="/isthisyou" element={<IsThisYou />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/blog" element={<Blog />} />
+            <Route path="/resources" element={<Resources />} />
           </Routes>
         </div>
       </Router>

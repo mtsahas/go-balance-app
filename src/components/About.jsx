@@ -1,7 +1,7 @@
 import React from "react";
 export function About() {
   return (
-    <div className="flex flex-col md:flex-row h-screen items-center justify-center p-8 bg-gray-100">
+    <div className="flex flex-col md:flex-row h-screen items-center justify-center p-8 bg-orange-50">
       {/* Left Column: Image */}
       <div className="w-full md:w-1/2 flex justify-center">
         <img
@@ -15,7 +15,7 @@ export function About() {
       <div className="w-full md:w-1/2 flex flex-col justify-center p-6">
         <h1 className="text-3xl font-bold text-gray-800 mb-4">Cally Mushka</h1>
         <p className="text-md text-gray-500">
-          <i>An Evaluator, An Educator, A Coach, An Advocate, A Mom</i>
+          <i>An Educator, A Coach, A Mom</i>
         </p>
         <p className="text-lg text-gray-600">
           I aim to uncover root causes of learning and health/well-being issues

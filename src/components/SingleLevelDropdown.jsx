@@ -135,7 +135,6 @@ export const SingleLevelDropdownMenu = ({ buttonLabel, items, styler }) => {
                 {item.url ? (
                   <Link
                     to={item.url}
-                    target="_blank"
                     rel="noopener noreferrer"
                     className="w-full text-left"
                     onClick={() => setOpen(false)}>
