@@ -106,7 +106,7 @@ export const SingleLevelDropdownMenu = ({ buttonLabel, items, styler }) => {
         aria-expanded={open}
         aria-controls="dropdown-menu"
         type="button"
-        className="inline-flex items-center text-black hover:text-blue-500 justify-center"
+        className="inline-flex items-center text-black hover:text-green-700 justify-center"
         onClick={handleToggle}
         onKeyDown={handleKeyDown}>
         {buttonLabel}
@@ -120,7 +120,7 @@ export const SingleLevelDropdownMenu = ({ buttonLabel, items, styler }) => {
             role="menu"
             id="dropdown-menu"
             aria-labelledby="dropdown-button"
-            className="w-56 h-auto md:shadow-md md:rounded-md md:border p-1 md:bg-white text-blue-500">
+            className="w-56 h-auto md:shadow-md md:rounded-md md:border p-1 md:bg-white text-green-700">
             {items.map((item, index) => (
               <li
                 role="menuitem"

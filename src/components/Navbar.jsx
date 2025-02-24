@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { Menu, X } from "lucide-react";
-import { SingleLevelDropdownMenu } from "./SingleLevelDropdown";
+import { SingleLevelDropdownMenu } from "./subcomponents/SingleLevelDropdown";
 
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -26,13 +26,15 @@ export function Navbar() {
             to="/"
             className={({ isActive }) =>
               navStyle + (isActive ? " text-green-700" : "")
-            }>
+            }
+            onClick={() => setIsOpen(false)}>
             Home
           </NavLink>
         </li>
         <li>
           <NavLink
             to="/about"
+            onClick={() => setIsOpen(false)}
             className={({ isActive }) =>
               navStyle + (isActive ? " text-green-700" : "")
             }>
@@ -42,6 +44,7 @@ export function Navbar() {
         <li>
           <NavLink
             to="/services"
+            onClick={() => setIsOpen(false)}
             className={({ isActive }) =>
               navStyle + (isActive ? " text-green-700" : "")
             }>
@@ -50,7 +53,8 @@ export function Navbar() {
         </li>
         <li>
           <NavLink
-            to="/services"
+            to="/specialprograms"
+            onClick={() => setIsOpen(false)}
             className={({ isActive }) =>
               navStyle + (isActive ? " text-green-700" : "")
             }>
@@ -88,9 +92,14 @@ export function Navbar() {
         </li> */}
         <li>
           <SingleLevelDropdownMenu
+            onClick={() => setIsOpen(false)}
             buttonLabel="Resources"
             items={[
               { title: "Recommended Books", url: "resources#books" },
+              {
+                title: "Informational Websites",
+                url: "resources#websites",
+              },
               {
                 title: "Blog",
                 url: "resources#blog",
@@ -105,6 +114,10 @@ export function Navbar() {
           <p>marymary@gmail.com</p>
         </li>{" "}
       </ul>
+      <div className="absolute right-2 p-2 text-right top-0 font-semibold sm:hidden">
+        <p>123-456-7890</p>
+        <p>marymary@gmail.com</p>
+      </div>
     </nav>
   );
 }

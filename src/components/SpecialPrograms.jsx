@@ -1,10 +1,15 @@
 import React from "react";
-export function Services() {
+import Card from "@mui/material/Card";
+import CardActions from "@mui/material/CardActions";
+import CardContent from "@mui/material/CardContent";
+import CardMedia from "@mui/material/CardMedia";
+import { Link } from "react-router-dom";
+export function SpecialPrograms() {
   const services = [
     {
       title: "Health and Education Discovery Sessions",
       description:
-        "Explore personalized strategies for health and education tailored to your unique needs.",
+        "Explore personalized strategies for health and education tailored to your unique needs. This program does this and this and this and this and this. If your child is struggling to stay focused, do this, do this, or this, this program can help them get back on track.",
       image: "./src/assets/home.jpg",
     },
     {
@@ -42,21 +47,19 @@ export function Services() {
 
   return (
     <div className="bg-orange-50">
-      <div className="max-w-6xl mx-auto px-6 py-12 ">
+      <div className="max-w-6xl mx-auto px-6 py-12">
         <h1 className="text-4xl font-bold text-center mb-12">Our Services</h1>
         <div className="space-y-16">
           {services.map((service, index) => (
             <div
               key={index}
-              className={`flex flex-col md:flex-row items-center gap-8 ${
-                index % 2 === 0 ? "md:flex-row-reverse" : ""
-              }`}>
+              className={`flex flex-col md:flex-row items-center gap-8`}>
               <img
                 src={service.image}
                 alt={service.title}
-                className="w-full md:w-1/2 h-50 object-cover shadow-lg"
+                className="w-full md:w-1/3 h-50 object-cover shadow-lg"
               />
-              <div className="md:w-1/2 text-center md:text-left">
+              <div className="md:w-2/3 text-center md:text-left">
                 <h2 className="text-2xl font-semibold mb-4">{service.title}</h2>
                 <p className="text-gray-700">{service.description}</p>
               </div>

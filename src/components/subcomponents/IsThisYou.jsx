@@ -4,11 +4,12 @@ import Button from "@mui/material/Button";
 
 export function IsThisYou() {
   return (
-    <Card className="max-w-6xl mx-auto p-6 shadow-lg rounded-2xl border border-gray-200 m-5">
+    <Card className="max-w-6xl mx-auto p-6 shadow-lg rounded-2xl border border-gray-200 m-5 ">
       <CardContent className="space-y-4">
-        <h2 className="text-2xl font-bold text-center text-blue-600">
+        <h2 className="text-2xl font-bold text-center text-green-700 ">
           IS THIS YOU?
         </h2>
+
         <p className="text-lg">
           Ready to do the necessary work to have more energy, feel alert, and
           facilitate learning?
@@ -34,7 +35,7 @@ export function IsThisYou() {
           one's life.
         </p>
         <div className="flex justify-center mt-4">
-          <button className="bg-blue-500 text-white px-4 py-2 rounded-lg shadow-md hover:bg-blue-400">
+          <button className="bg-green-700 text-white px-4 py-2 rounded-lg shadow-md hover:bg-green-600">
             Schedule an Appointment
           </button>
         </div>

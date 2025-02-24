@@ -29,7 +29,7 @@ export function Blog() {
       {blogs.map((item, index) => (
         <div key={index} className="p-5 h-fit w-full border my-10 rounded-lg ">
           <div
-            className="text-xl text-blue-800 font-bold"
+            className="text-xl text-green-800 font-bold"
             key={"header" + index}>
             {item.title}
           </div>
