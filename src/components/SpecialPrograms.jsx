@@ -14,7 +14,7 @@ export function SpecialPrograms() {
         <div className="space-y-16">
           <div className="flex flex-col md:flex-row items-center gap-8">
             <img
-              src="./src/assets/tree.jpg"
+              src="/tree.jpg"
               alt="Discovery Session"
               className="w-full md:w-1/3 h-80 object-cover shadow-lg"
             />
@@ -44,7 +44,7 @@ export function SpecialPrograms() {
 
           <div className="flex flex-col md:flex-row items-center gap-8">
             <img
-              src="./src/assets/nature.jpg"
+              src="/nature.jpg"
               alt="Discovery Session"
               className="w-full md:w-1/3 h-80 object-cover shadow-lg"
             />
@@ -76,7 +76,7 @@ export function SpecialPrograms() {
 
           <div className="flex flex-col md:flex-row items-center gap-8">
             <img
-              src="./src/assets/waterfall.jpg"
+              src="/waterfall.jpg"
               alt="Discovery Session"
               className="w-full md:w-1/3 h-80 object-cover shadow-lg"
             />
@@ -107,7 +107,7 @@ export function SpecialPrograms() {
 
           <div className="flex flex-col md:flex-row items-center gap-8">
             <img
-              src="./src/assets/home.jpg"
+              src="/home.jpg"
               alt="Discovery Session"
               className="w-full md:w-1/3 h-80 object-cover shadow-lg"
             />

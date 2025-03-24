@@ -1,45 +1,5 @@
 import React from "react";
 export function Services() {
-  const services = [
-    {
-      title: "Health and Education Discovery Sessions",
-      description:
-        "Explore personalized strategies for health and education tailored to your unique needs.",
-      image: "./src/assets/home.jpg",
-    },
-    {
-      title: "Consultations",
-      description:
-        "Expert advice on health and education to support your personal and family goals.",
-      image: "./src/assets/home.jpg",
-    },
-    {
-      title: "Speech-Language Evaluations",
-      description:
-        "Comprehensive assessments to identify speech and language development needs.",
-      image: "./src/assets/home.jpg",
-    },
-    {
-      title: "Holistic Health and Education Coaching Programs",
-      description:
-        "Support for families, tweens, teens, and young adults in achieving their full potential.",
-      image: "./src/assets/home.jpg",
-    },
-    {
-      title: "Parent Coaching for Early Language Development",
-      description:
-        "Guidance for parents to foster early language skills and communication development.",
-      image: "./src/assets/home.jpg",
-    },
-    {
-      title:
-        "Intensive Treatment / Management Programs for Auditory Processing",
-      description:
-        "Specialized programs for individuals with auditory processing challenges.",
-      image: "./src/assets/home.jpg",
-    },
-  ];
-
   return (
     <div className="min-h-screen bg-blue-50 text-gray-900 p-6">
       <div className="max-w-5xl mx-auto text-center">
@@ -54,7 +14,7 @@ export function Services() {
         </p>
         <img
           className="w-full h-64 object-cover mb-6"
-          src="./src/assets/discovery-center.jpg"
+          src="/discovery-center.jpg"
           alt="Discovery Session"
         />
         <ul className="list-disc list-inside text-lg mb-6 text-left">
@@ -76,7 +36,7 @@ export function Services() {
         </p>
         <img
           className="w-full h-64 object-cover mb-6"
-          src="./src/assets/evaluation.jpg"
+          src="/evaluation.jpg"
           alt="Speech Evaluation"
         />
         <ul className="list-disc list-inside text-lg mb-6 text-left">
@@ -99,7 +59,7 @@ export function Services() {
         </p>
         <img
           className="w-full h-64 object-cover mb-6"
-          src="./src/assets/coaching-program.jpg"
+          src="/coaching-program.jpg"
           alt="Coaching Program"
         />
 

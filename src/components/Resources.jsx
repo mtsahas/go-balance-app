@@ -18,59 +18,59 @@ export function Resources() {
 
   const books = [
     {
-      path: "./src/assets/book1.jpg",
+      path: "/book1.jpg",
       link: "https://www.amazon.com/When-Brain-Cant-Hear-Unraveling/dp/0743428641",
     },
     {
-      path: "./src/assets/book2.jpg",
+      path: "/book2.jpg",
       link: "https://www.amazon.com/Sound-Hope-Recognizing-Treating-Processing/dp/0345512189",
     },
     {
-      path: "./src/assets/book3.jpg",
+      path: "/book3.jpg",
       link: "https://www.amazon.com/Dont-Living-Auditory-Learning-Disabilities/dp/0984738010",
     },
     {
-      path: "./src/assets/book4.jpg",
+      path: "/book4.jpg",
       link: "https://www.amazon.com/Healing-Speed-Sound-Transforms-Brains/dp/1594630828",
     },
     {
-      path: "./src/assets/book5.jpg",
+      path: "/book5.jpg",
       link: "https://www.amazon.com/Thinking-About-You-Me/dp/0970132069",
     },
     {
-      path: "./src/assets/book6.jpg",
+      path: "/book6.jpg",
       link: "https://www.amazon.com/This-Your-Child-Discovering-Unrecognized/dp/0688086233",
     },
     {
-      path: "./src/assets/book7.jpg",
+      path: "/book7.jpg",
       link: "https://www.amazon.com/This-Your-Child-Doris-Rapp/dp/0688119077#:~:text=Doris%20Rapp%20offers%20a%20simple,feel%20unwell%20or%20act%20inappropriately.",
     },
     {
-      path: "./src/assets/book8.jpg",
+      path: "/book8.jpg",
       link: "https://www.amazon.com/Sound-Hope-Recognizing-Treating-Processing/dp/0345512189",
     },
     {
-      path: "./src/assets/book9.jpg",
+      path: "/book9.jpg",
       link: "https://www.amazon.com/When-Brain-Cant-Hear-Unraveling/dp/0743428641",
     },
     {
-      path: "./src/assets/book10.jpg",
+      path: "/book10.jpg",
       link: "https://www.amazon.com/Sound-Hope-Recognizing-Treating-Processing/dp/0345512189",
     },
     {
-      path: "./src/assets/book11.jpg",
+      path: "/book11.jpg",
       link: "https://www.amazon.com/When-Brain-Cant-Hear-Unraveling/dp/0743428641",
     },
     {
-      path: "./src/assets/book12.jpg",
+      path: "/book12.jpg",
       link: "https://www.amazon.com/Sound-Hope-Recognizing-Treating-Processing/dp/0345512189",
     },
     {
-      path: "./src/assets/book13.jpg",
+      path: "/book13.jpg",
       link: "https://www.amazon.com/Sound-Hope-Recognizing-Treating-Processing/dp/0345512189",
     },
     {
-      path: "./src/assets/book14.jpg",
+      path: "/book14.jpg",
       link: "https://www.amazon.com/Sound-Hope-Recognizing-Treating-Processing/dp/0345512189",
     },
   ];
