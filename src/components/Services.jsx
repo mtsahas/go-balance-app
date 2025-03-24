@@ -41,28 +41,184 @@ export function Services() {
   ];
 
   return (
-    <div className="bg-orange-50">
-      <div className="max-w-6xl mx-auto px-6 py-12 ">
-        <h1 className="text-4xl font-bold text-center mb-12">Our Services</h1>
-        <div className="space-y-16">
-          {services.map((service, index) => (
-            <div
-              key={index}
-              className={`flex flex-col md:flex-row items-center gap-8 ${
-                index % 2 === 0 ? "md:flex-row-reverse" : ""
-              }`}>
-              <img
-                src={service.image}
-                alt={service.title}
-                className="w-full md:w-1/2 h-50 object-cover shadow-lg"
-              />
-              <div className="md:w-1/2 text-center md:text-left">
-                <h2 className="text-2xl font-semibold mb-4">{service.title}</h2>
-                <p className="text-gray-700">{service.description}</p>
-              </div>
-            </div>
-          ))}
+    <div className="min-h-screen bg-blue-50 text-gray-900 p-6">
+      <div className="max-w-5xl mx-auto text-center">
+        <h1 className="text-4xl font-bold mb-6">Our Services</h1>
+        <h2 className="text-2xl font-semibold mt-6 mb-4">
+          Health & Education Discovery Sessions
+        </h2>
+        <p className="text-lg mb-6">
+          Start your journey with a Discovery Session, where we assess
+          strengths, challenges, and goals. These sessions help identify key
+          areas of need and craft a tailored plan for success.
+        </p>
+        <img
+          className="w-full h-64 object-cover mb-6"
+          src="./src/assets/discovery-center.jpg"
+          alt="Discovery Session"
+        />
+        <ul className="list-disc list-inside text-lg mb-6 text-left">
+          <li>
+            Identify underlying difficulties in processing, organization, and
+            communication
+          </li>
+          <li>Gain insights into strategies for success</li>
+          <li>Personalized roadmap for growth</li>
+        </ul>
+
+        <h2 className="text-2xl font-semibold mt-6 mb-4">
+          Comprehensive Speech-Language Evaluations
+        </h2>
+        <p className="text-lg mb-6">
+          Our expert-led evaluations assess communication skills,
+          cognitive-linguistic abilities, and processing challenges that may
+          impact learning, social interactions, and daily life.
+        </p>
+        <img
+          className="w-full h-64 object-cover mb-6"
+          src="./src/assets/evaluation.jpg"
+          alt="Speech Evaluation"
+        />
+        <ul className="list-disc list-inside text-lg mb-6 text-left">
+          <li>Assess speech clarity, fluency, and comprehension</li>
+          <li>
+            Identify auditory, phonological, and language processing issues
+          </li>
+          <li>
+            Develop individualized treatment plans for lasting improvement
+          </li>
+        </ul>
+
+        <h2 className="text-2xl font-semibold mt-6 mb-4">
+          Holistic Health & Education 12-Week Coaching Program
+        </h2>
+        <p className="text-lg mb-6">
+          This transformative coaching program is designed for young adults and
+          families who seek to enhance cognitive skills, processing abilities,
+          and overall well-being.
+        </p>
+        <img
+          className="w-full h-64 object-cover mb-6"
+          src="./src/assets/coaching-program.jpg"
+          alt="Coaching Program"
+        />
+
+        <h3 className="text-xl font-semibold mt-4 mb-2">Areas of Focus:</h3>
+        <div className="bg-white p-6 rounded-lg shadow-md my-4">
+          <h4 className="text-lg font-semibold mt-4">
+            Executive Functioning: Mastering Organization & Self-Regulation
+          </h4>
+          <ul className="list-disc list-inside text-lg mb-6 text-left ml-10">
+            <li>Learn to initiate, plan, and organize effectively</li>
+            <li>Strengthen problem-solving and decision-making skills</li>
+            <li>
+              Develop strategies for self-regulation and sustained attention
+            </li>
+          </ul>
+          <h2>
+            <b>Why It Matters:</b> Learning differences don’t have to limit
+            success. With proper guidance, individuals can develop strategies
+            that turn learning difficulties into strengths.{" "}
+          </h2>
         </div>
+        <div className="bg-white p-6 rounded-lg shadow-md my-4">
+          <h4 className="text-lg font-semibold mt-4">
+            Auditory Processing: Strengthening How the Brain Understands Sound
+          </h4>
+          <ul className="list-disc list-inside text-lg mb-6 text-left ml-10">
+            <li>
+              Improve the ability to filter and interpret auditory information
+            </li>
+            <li>Enhance listening skills in noisy environments</li>
+            <li>
+              Strengthen memory and comprehension through targeted strategies
+            </li>
+          </ul>
+          <h2>
+            <b>Why It Matters:</b>If you or your child struggles to follow
+            directions, process spoken information, or retain details, auditory
+            processing training can significantly improve communication and
+            learning outcomes.
+          </h2>
+        </div>
+        <div className="bg-white p-6 rounded-lg shadow-md my-4">
+          <h4 className="text-lg font-semibold mt-4">
+            Phonological Processing: Building Strong Reading & Writing Skills
+          </h4>
+          <ul className="list-disc list-inside text-lg mb-6 text-left ml-10">
+            <li>Boost phonemic awareness and decoding skills</li>
+            <li>Improve reading fluency and comprehension</li>
+            <li>Strengthen spelling and written expression</li>
+          </ul>
+          <h2>
+            <b>Why It Matters:</b> Phonological processing is critical for
+            literacy development—strong skills in this area leads to better
+            reading and writing performance.
+          </h2>
+        </div>
+        <div className="bg-white p-6 rounded-lg shadow-md my-4">
+          <h4 className="text-lg font-semibold mt-4">
+            Language Processing: Enhancing Communication & Comprehension
+          </h4>
+          <ul className="list-disc list-inside text-lg mb-6 text-left ml-10">
+            <li>Develop stronger verbal expression and vocabulary</li>
+            <li>Improve sentence structure and language organization</li>
+            <li>Strengthen reading comprehension and storytelling skills</li>
+          </ul>
+          <h2>
+            <b>Why It Matters:</b> Language processing affects academic
+            performance and social interactions—improving these skills help
+            individuals communicate more effectively and confidently.
+          </h2>
+        </div>
+        <div className="bg-white p-6 rounded-lg shadow-md my-4">
+          <h4 className="text-lg font-semibold mt-4">
+            Support for Learning Differences: Personalized Strategies for
+            Success
+          </h4>
+          <ul className="list-disc list-inside text-lg mb-6 text-left ml-10">
+            <li>Identify and address individual learning challenges</li>
+            <li>Implement multi-sensory strategies for improved retention</li>
+            <li>
+              Build confidence and reduce frustration in academic settings
+            </li>
+          </ul>
+          <h2>
+            <b>Why It Matters:</b> Learning differences don’t have to limit
+            success. With proper guidance, individuals can develop strategies
+            that turn learning difficulties into strengths.
+          </h2>
+        </div>
+        <h2 className="text-2xl font-semibold mt-6 mb-4">
+          Why Choose Our Approach?
+        </h2>
+        <ul className="list-disc list-inside text-lg mb-6 text-left">
+          <li>
+            <b>Holistic & Personalized </b>– We integrate cognitive, linguistic,
+            and executive function coaching for a well-rounded approach.
+          </li>
+          <li>
+            <b>Practical, Real-World Strategies</b> – We don’t just teach
+            concepts; we provide actionable techniques that work in everyday
+            life.
+          </li>
+          <li>
+            <b>Long-Term Success </b>– Our goal is to provide individuals with
+            lifelong skills, not just short-term fixes.
+          </li>
+        </ul>
+
+        <h2 className="text-2xl mt-6 mb-4">
+          Are you ready to{" "}
+          <b>
+            unlock potential, improve processing skills, and build a brighter
+            future?
+          </b>
+        </h2>
+        <p className="text-lg pb-8">
+          <b>Schedule a Discovery Session today!</b> Let’s create a path to
+          success together.
+        </p>
       </div>
     </div>
   );
