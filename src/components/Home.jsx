@@ -9,7 +9,7 @@ export function Home() {
         <div className="relative w-full h-screen flex flex-col justify-center items-center">
           <img
             className="absolute w-full h-full object-cover opacity-90"
-            src="./src/assets/waterfall.jpg"
+            src="/src/assets/waterfall.jpg"
             alt="landscape image"
           />
           <h1 className="font-serif relative text-4xl md:text-6xl font-bold text-white shadow-lg p-4 bg-green-800 rounded-md">
