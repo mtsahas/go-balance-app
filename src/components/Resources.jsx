@@ -234,14 +234,16 @@ export function Resources() {
     },
   ];
   return (
-    <div className="p-10 bg-blue-50">
+    <div className="bg-blue-50 w-screen">
       <div className="mb-10">
-        <h1 className="text-3xl font-bold text-center" id="books">
+        <h1 className="p-3 text-3xl font-bold text-center" id="books">
           Recommended Books
         </h1>
-        <div className="p-3 flex flex-row flex-wrap flex-col gap-8">
+        <div className="flex flex-row flex-wrap gap-5 sm:gap-8 text-center justify-center">
           {books.map((book, index) => (
-            <div key={index} className="p-3 h-70 w-50 sm:h-80 sm:w-60">
+            <div
+              key={index}
+              className="p-3 h-70 w-40 h-50 sm:w-50 sm:h-60 w-40 md:h-80 md:w-60">
               <img
                 className=" m-auto"
                 src={book.path}
@@ -251,7 +253,7 @@ export function Resources() {
           ))}
         </div>
       </div>
-      <div>
+      <div className="p-5">
         <h1 className="text-3xl text-center font-bold" id="websites">
           Informational Websites
         </h1>

@@ -22,10 +22,10 @@ export function Home() {
 
           <p className="italic font-serif relative mt-20 text-md sm:text-lg text-white bg-green-800 p-4 mx-4 rounded-md max-w-5xl">
             Restore Balance, Strengthen Neural Connections, and Unlock Learning
-            Pathways —Holistic Nourishment, Personalized Coaching, and Proven
-            Programs for Neuro-divergent Learners -- learners challenged with
-            focus, attention, listening, organization & planning-- to Grow,
-            Learn, and Live well{" "}
+            Pathways — Holistic Nourishment, Personalized Coaching, and Proven
+            Programs for Neuro-divergent Learners — helping young adults and
+            children with focus, attention, listening, organization & planning
+            challenges — to Grow, Learn, and Live well.{" "}
           </p>
         </div>
 
@@ -54,7 +54,7 @@ export function Home() {
             your brain, heart, and gut—the gateway to better learning, more
             precise communication, and greater ease in everyday life.
           </p>
-          <div className="bg-sky-600 text-white rounded-lg shadow-sm max-w-4xl mx-auto p-3 m-5">
+          <div className="bg-sky-600 text-white rounded-lg shadow-sm max-w-3xl mx-auto p-3 m-5">
             <h2 className="text-2xl font-semibold mt-6 mb-4">The Keys:</h2>
             <p className="text-lg mb-6">
               Positive Beliefs - Nourishing Nutrition - A Safe and Supportive
@@ -77,7 +77,7 @@ export function Home() {
         <IsThisYou />
 
         {/* Encouragement Section */}
-        <div className="p-6 my-6 bg-gray-200 rounded-lg shadow-md text-lg font-semibold text-gray-800 max-w-xl">
+        <div className="p-6 my-6 text-lg font-semibold text-gray-800 max-w-xl">
           Be diligent. Be faithful. Be hopeful. Be persistent. Be patient.
         </div>
       </div>
