@@ -1,29 +1,30 @@
 import React from "react";
 export function About() {
   return (
-    <div className=" text-justify justify-center p-8 bg-blue-50">
-      {/* <div className="w-full md:w-1/8 flex justify-center">
-        <img
-          src="./src/assets/headshot.jpg"
-          alt="Profile"
-          className="rounded-2xl shadow-lg w-3/4 object-cover"
-        />
-      </div> */}
-      {/* Right Column: Bio */}
-      <div className="w-full flex flex-col justify-center p-6 max-w-6xl mx-auto">
+    <div className="justify-center p-8 bg-blue-50">
+      <div className="w-full justify-center p-6 max-w-6xl mx-auto">
         <h1 className="text-3xl font-bold text-gray-900 mb-4">About Me</h1>
-        <p className="text-lg text-gray-900 font-bold">
+
+        {/* Float the image to the left so text wraps around it */}
+        <img
+          className="w-70 h-50 float-none mx-auto sm:float-left rounded-md sm:mr-6 mb-2"
+          src="/headshot.jpg"
+          alt="Headshot"
+        />
+
+        <p className="text-lg text-gray-900 font-bold pb-2">
           Evaluator. Educator. Coach. Mom.
         </p>
+
         <p className="text-lg text-gray-800 mb-4">
-          I help individuals build strong foundations for learning,
-          communication, and well-being by integrating specialized programs that
-          support brain function, processing, and self-regulation. Whether at
-          home, in school, or professional settings, I am here to guide and
-          empower you toward meaningful, lasting progress.
+          Hi, I'm Cally Mushka. I help individuals build strong foundations for
+          learning, communication, and well-being by integrating specialized
+          programs that support brain function, processing, and self-regulation.
+          Whether at home, in school, or professional settings, I am here to
+          guide and empower you toward meaningful, lasting progress.
         </p>
 
-        <p className="text-lg text-gray-900 font-bold">My Approach</p>
+        <p className="text-lg text-gray-900 font-bold pb-2">My Approach</p>
         <p className="text-lg text-gray-800 mb-4">
           With a focus on the whole person, I incorporate evidence-based
           programs to enhance cognitive, sensory, and auditory processing. I
@@ -37,7 +38,9 @@ export function About() {
           learning, communication, and daily life.
         </p>
 
-        <p className="text-lg text-gray-900 font-bold">Why I Do What I Do</p>
+        <p className="text-lg text-gray-900 font-bold pb-2">
+          Why I Do What I Do
+        </p>
         <p className="text-lg text-gray-800 mb-4">
           Throughout my career, I’ve seen how processing, focus, and
           comprehension struggles can impact confidence and daily function. I
@@ -47,7 +50,7 @@ export function About() {
           unique needs.
         </p>
 
-        <p className="text-lg text-gray-900 font-bold">My Philosophy</p>
+        <p className="text-lg text-gray-900 font-bold pb-2">My Philosophy</p>
         <p className="text-lg text-gray-800 mb-4">
           Just like constructing a strong building, personal growth and learning
           require a stable foundation. My approach starts from the ground
@@ -57,20 +60,21 @@ export function About() {
           success.
         </p>
 
-        <p className="text-lg text-gray-900 font-bold">My Background</p>
+        <p className="text-lg text-gray-900 font-bold pb-2">My Background</p>
         <p className="text-lg text-gray-800 mb-4">
           I am a <b>licensed speech-language pathologist</b> and a{" "}
           <b>functional/integrative health and nutrition coach</b> with
           extensive training in auditory and sensory processing,
           self-regulation, and executive functioning. By combining my expertise
           with innovative programs, I provide personalized strategies that
-          support learning, communication, and well-being.<br></br> I'd love to
-          connect if you're seeking a compassionate, knowledgeable guide to help
-          navigate learning and processing challenges. Let’s work together to
-          unlock potential and create new opportunities for success.
+          support learning, communication, and well-being.
+          <div className="pb-2"></div>
+          I'd love to connect if you're seeking a compassionate, knowledgeable
+          guide to help navigate learning and processing challenges. Let’s work
+          together to unlock potential and create new opportunities for success.
         </p>
 
-        <p className="text-lg text-gray-900 font-bold">
+        <p className="text-lg text-gray-900 font-bold pb-2">
           Unlock Potential Through Holistic Health & Education Support
         </p>
         <p className="text-lg text-gray-800 mb-4">

@@ -257,7 +257,7 @@ export function Resources() {
           Informational Websites
         </h1>
         {websites.map((item, index) => (
-          <div key={index}>
+          <div className="px-10" key={index}>
             <h2 className="text-2xl font-bold mt-4">{item.section}</h2>
             <ul className="p-3 list-disc">
               {item.links.map((website, i) => (

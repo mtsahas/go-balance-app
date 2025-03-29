@@ -68,7 +68,7 @@ export function Services() {
             health
           </li>
           <li>
-            Functional changes in timing, rhythm, listening, and executive
+            Functional shifts in timing, rhythm, listening, and executive
             functioning
           </li>
           <li>

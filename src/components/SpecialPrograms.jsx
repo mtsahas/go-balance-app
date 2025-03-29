@@ -19,8 +19,15 @@ export function SpecialPrograms() {
               className="w-full md:w-1/3 h-80 object-cover shadow-lg"
             />
             <div className="md:w-2/3 text-center md:text-left">
-              <h2 className="text-2xl font-semibold mb-4">The Alert Program</h2>
-              <h2 className="text-xl font-semibold mb-4">
+              <h2 className="text-2xl font-semibold mb-4 hover:underline">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://alertprogram.com/">
+                  The Alert Program
+                </a>
+              </h2>
+              <h2 className="text-xl font-semibold mb-4 ">
                 Helping Individuals Recognize and Regulate Their Levels of
                 Alertness
               </h2>
@@ -49,8 +56,13 @@ export function SpecialPrograms() {
               className="w-full md:w-1/3 h-80 object-cover shadow-lg"
             />
             <div className="md:w-2/3 text-center md:text-left">
-              <h2 className="text-2xl font-semibold mb-4">
-                The Interactive Metronome Program
+              <h2 className="text-2xl font-semibold mb-4 hover:underline">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.interactivemetronome.com/">
+                  The Interactive Metronome Program
+                </a>
               </h2>
               <h2 className="text-xl font-semibold mb-4">
                 Improving Timing, Coordination, and Cognitive Processing
@@ -81,8 +93,13 @@ export function SpecialPrograms() {
               className="w-full md:w-1/3 h-80 object-cover shadow-lg"
             />
             <div className="md:w-2/3 text-center md:text-left">
-              <h2 className="text-2xl font-semibold mb-4">
-                The Listening Program (TLP)
+              <h2 className="text-2xl font-semibold mb-4 hover:underline">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://advancedbrain.com/about-tlp/">
+                  The Listening Program (TLP)
+                </a>
               </h2>
               <h2 className="text-xl font-semibold mb-4">
                 Transforming the Brain Through Sound-Based Therapy
