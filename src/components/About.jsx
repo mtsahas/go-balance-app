@@ -83,41 +83,6 @@ export function About() {
           personally.
         </p>
       </div>
-
-      <div className="max-w-6xl mx-auto p-6 shadow-lg bg-white rounded-2xl border border-gray-200 m-5 justify-center items-center">
-        <h1 className="text-2xl font-bold text-center text-gray-900 p-4">
-          What can you expect?
-        </h1>
-        <ul className="list-disc list-inside text-lg text-left px-6 pb-6">
-          <li>
-            An opportunity to learn the principles of bio-individual
-            nourishment.
-          </li>
-          <li>
-            Meaningful and functional improvement in timing, rhythm, listening
-            and executive functioning (e.g., self-regulation) upon completion of
-            specific programs geared to these skills.
-          </li>
-          <li>
-            Shifts in brain-body balance so that you can more easily access your
-            learning pathways and re- wire/strengthen neural connections in 3 to
-            12 months through completion of specialty programs.
-          </li>
-          <li>
-            Support, guidance and an accountability partner to help you create
-            and establish new daily habits and routines that can improve your
-            daily living and help you facilitate access to your learning
-            pathways.
-          </li>
-          <li>
-            Supervision, guidance and feedback while participating in the
-            specialized programs geared to improve the neural timing
-            underpinnings (brain synchronization, rhythm, and timing) so that
-            you may see improvements in memory, auditory processing, sensory
-            processing and language processing.
-          </li>
-        </ul>
-      </div>
     </div>
   );
 }

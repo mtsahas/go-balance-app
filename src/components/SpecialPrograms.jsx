@@ -104,7 +104,7 @@ export function SpecialPrograms() {
               </ul>
             </div>
           </div>
-
+          {/*  
           <div className="flex flex-col md:flex-row items-center gap-8">
             <img
               src="/home.jpg"
@@ -138,6 +138,7 @@ export function SpecialPrograms() {
               </ul>
             </div>
           </div>
+          */}
         </div>
       </div>
     </div>

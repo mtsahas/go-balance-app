@@ -99,7 +99,7 @@ export function Resources() {
     {
       section: "Executive Functioning",
       links: [
-        { title: "Seth Perler", url: "https://sethperler.com/Sethperler.com/" },
+        { title: "Seth Perler", url: "https://sethperler.com" },
         {
           title: "Cognitive Connections",
           url: "https://www.efpractice.com/about-5-1",
@@ -116,8 +116,7 @@ export function Resources() {
       ],
     },
     {
-      section:
-        "Parent resources for neurodevelopmental disorders:  Root Causes/Nutrition/Environment/Treatments",
+      section: "Parent resources for neurodevelopmental disorders",
       links: [
         {
           title: "Documenting Hope",
@@ -158,7 +157,7 @@ export function Resources() {
         {
           title:
             "Nutrition and Therapeutic Diets for Children with Autism and ADHD",
-          url: "nourishinghope.com",
+          url: "https://nourishinghope.com",
         },
         {
           title: "Healing Without Hurting",
@@ -171,7 +170,7 @@ export function Resources() {
         },
         {
           title: "Health Topics Archive - The Weston A. Price Foundation",
-          url: "westonaprice.org",
+          url: "https://westonaprice.org",
         },
         {
           title: "Autism, ADHD, and Wireless Electromagnetic Fields",
@@ -184,7 +183,7 @@ export function Resources() {
       ],
     },
     {
-      section: "Sensory Processing/Self-Regulation/Vestibular/Treatments",
+      section: "Sensory Processing",
       links: [
         {
           title: "STAR Institute",
@@ -205,12 +204,12 @@ export function Resources() {
         },
         {
           title: "Spiral Foundation",
-          url: "thesprialfoundation.org",
+          url: "https://thesprialfoundation.org",
         },
 
         {
           title: "Sensory Smart Parent",
-          url: "sensorysmartparent.com",
+          url: "https://sensorysmartparent.com",
         },
         {
           title: "SPD Foundation",
