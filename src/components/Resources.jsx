@@ -80,6 +80,10 @@ export function Resources() {
       section: "Auditory Processing/Hearing/Speech-Language",
       links: [
         {
+          title: "American Speech Language Hearing Association",
+          url: "https://www.asha.org/public/early-identification-of-speech-language-and-hearing-disorders/?srsltid=AfmBOope6l_p49QrwVFDLad1Q72_T4abgQTdfDF7BKYN3q9grfeZrzJ_",
+        },
+        {
           title: "National Coalition for Auditory Processing Disorders",
           url: "https://www.ncapd.org/",
         },
@@ -88,11 +92,6 @@ export function Resources() {
           title:
             "Hearing and Balance Symptoms and Conditions - The American Academy of Audiology",
           url: "https://www.audiology.org/consumers-and-patients/hearing-and-balance/",
-        },
-        {
-          title:
-            "Language, Swallowing, and Hearing Information and Resources (asha.org)",
-          url: "https://www.asha.org/public/early-identification-of-speech-language-and-hearing-disorders/?srsltid=AfmBOope6l_p49QrwVFDLad1Q72_T4abgQTdfDF7BKYN3q9grfeZrzJ_",
         },
       ],
     },
@@ -131,12 +130,9 @@ export function Resources() {
           url: "https://mychildwillthrive.com",
         },
         {
-          title: "Nicole Beurkens",
-          url: "https://drbeurkens.com",
-        },
-        {
-          title: "Special Education Teacher, Nutritionist, Psychologist",
-          url: "https://www.mariarickerthong.com/",
+          title:
+            "Dr. Nicole Beurkens: Special Education Teacher, Nutritionist, Psychologist",
+          url: "https://www.drbeurkens.com/a-holistic-approach-to-improving-adhd-symptoms-in-children-and-teens/",
         },
         {
           title: "Wellness Mama",
@@ -186,25 +182,13 @@ export function Resources() {
       section: "Sensory Processing",
       links: [
         {
-          title: "STAR Institute",
-          url: "https://sensoryhealth.org",
-        },
-        {
-          title: "STAR Institute: Books, Products, and Online Tools",
-          url: "https://www.spdstar.org/basic/books-products-and-online-tools",
-        },
-        {
           title: "Star Institute: Symptoms Checklist",
           url: "https://sensoryhealth.org/basic/symptoms-checklist",
         },
-        {
-          title:
-            "STAR Institute: Sensory Integration & Processing Jargon Guide",
-          url: "https://www.spdstar.org/sites/default/files/file-attachments/Sensory%20Integration%20%26%20Processing%20Jargon%20Guide%20-2020.pdf",
-        },
+
         {
           title: "Spiral Foundation",
-          url: "https://thesprialfoundation.org",
+          url: "https://thespiralfoundation.org",
         },
 
         {
@@ -222,18 +206,14 @@ export function Resources() {
       links: [
         {
           title:
-            "Optometrists.org: Does My Child Have a Vision-Related Learning Difficulty?",
+            "Does My Child Have a Vision-Related Learning Difficulty? (Optometrists.org)",
           url: "https://www.optometrists.org/childrens-vision/vision-for-school/does-your-child-have-a-learning-difficulty/#:~:text=Without%20visual%20integration%2C%20a%20child,may%20have%20a%20vision%20problem.",
-        },
-        {
-          title: "Optometrists.org: The 17 Key Visual Skills",
-          url: "https://www.optometrists.org/vision-therapy/guide-vision-and-learning-difficulties/the-17-key-visual-skills/",
         },
       ],
     },
   ];
   return (
-    <div className="bg-blue-50 w-screen">
+    <div className="bg-white-50 w-screen">
       <div className="mb-10">
         <h1 className="p-3 text-3xl font-bold text-center" id="books">
           Recommended Books

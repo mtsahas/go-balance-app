@@ -9,7 +9,7 @@ export function Navbar() {
     "font-serif text-lg font-semibold text-black hover:text-green-800 transition duration-300 ease-in-out transform";
 
   return (
-    <nav className="bg-blue-50 drop-shadow-lg p-5 sticky top-0 z-20">
+    <nav className="bg-green-50 drop-shadow-lg p-5 sticky top-0 z-20">
       <div className="flex justify-between items-center">
         <button
           className="md:hidden p-2 focus:outline-none"
@@ -18,7 +18,7 @@ export function Navbar() {
         </button>
       </div>
       <ul
-        className={`md:flex space-x-6 bg-blue-50 items-center justify-center md:static absolute w-full left-0 md:w-auto md:flex-row flex-col md:space-y-0 space-y-4 p-5 md:p-0 shadow-lg md:shadow-none transition-all duration-300 ease-in-out ${
+        className={`md:flex space-x-6 bg-pgreen-50  items-center justify-center md:static absolute w-full left-0 md:w-auto md:flex-row flex-col md:space-y-0 space-y-4 p-5 md:p-0 shadow-lg md:shadow-none transition-all duration-300 ease-in-out ${
           isOpen ? "block" : "hidden md:flex"
         }`}>
         <li>
@@ -39,6 +39,16 @@ export function Navbar() {
               navStyle + (isActive ? " text-green-800" : "")
             }>
             About
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
+            to="/isthisyou"
+            onClick={() => setIsOpen(false)}
+            className={({ isActive }) =>
+              navStyle + (isActive ? " text-green-800" : "")
+            }>
+            Testimonials
           </NavLink>
         </li>
         <li>
@@ -106,13 +116,12 @@ export function Navbar() {
         </li>
         {/* Right-Aligned Item */}
         <li className="absolute right-2 p-2 text-right font-semibold hidden sm:inline font-serif">
-          <p>123-456-7890</p>
-          <p>marymary@gmail.com</p>
+          <p>Contact us today!</p>
+          <p>gobalancehealth@gmail.com</p>
         </li>{" "}
       </ul>
       <div className="absolute right-2 p-2 text-right top-0 font-semibold sm:hidden font-serif">
-        <p>123-456-7890</p>
-        <p>marymary@gmail.com</p>
+        <p>Contact gobalancehealth@gmail.com</p>
       </div>
     </nav>
   );

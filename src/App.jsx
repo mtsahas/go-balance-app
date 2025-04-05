@@ -5,7 +5,7 @@ import { Home } from "./components/Home.jsx";
 import { About } from "./components/About.jsx";
 import { Contact } from "./components/subcomponents/Contact.jsx";
 import { Services } from "./components/Services.jsx";
-import { IsThisYou } from "./components/subcomponents/IsThisYou.jsx";
+import { Testimonials } from "./components/Testimonials.jsx";
 import { Blog } from "./components/subcomponents/Blog.jsx";
 import { Resources } from "./components/Resources.jsx";
 import { SpecialPrograms } from "./components/SpecialPrograms.jsx";
@@ -21,7 +21,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/services" element={<Services />} />
-            <Route path="/isthisyou" element={<IsThisYou />} />
+            <Route path="/isthisyou" element={<Testimonials />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/resources" element={<Resources />} />

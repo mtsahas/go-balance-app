@@ -1,14 +1,14 @@
 import React from "react";
 export function About() {
   return (
-    <div className="justify-center p-8 bg-blue-50">
+    <div className="justify-center p-8 bg-white-50">
       <div className="w-full justify-center p-6 max-w-6xl mx-auto">
         <h1 className="text-3xl font-bold text-gray-900 mb-4">About Me</h1>
 
         {/* Float the image to the left so text wraps around it */}
         <img
-          className="w-70 h-50 float-none mx-auto sm:float-left rounded-md sm:mr-6 mb-2"
-          src="/headshot.jpg"
+          className="w-70 h-70 float-none mx-auto sm:float-left rounded-md sm:mr-6 mb-2 object-cover"
+          src="/cally_headshot.jpg"
           alt="Headshot"
         />
 
@@ -17,25 +17,30 @@ export function About() {
         </p>
 
         <p className="text-lg text-gray-800 mb-4">
-          Hi, I'm Cally Mushka. I help individuals build strong foundations for
-          learning, communication, and well-being by integrating specialized
-          programs that support brain function, processing, and self-regulation.
-          Whether at home, in school, or professional settings, I am here to
-          guide and empower you toward meaningful, lasting progress.
+          I help individuals build strong foundations for learning,
+          communication, and well-being by integrating specialized programs that
+          support brain function, processing, and self-regulation. Whether at
+          home, in school, or professional settings, I am here to guide and
+          empower you toward meaningful, lasting progress.
         </p>
 
-        <p className="text-lg text-gray-900 font-bold pb-2">My Approach</p>
+        <p className="text-lg text-gray-900 font-bold pb-2">
+          My Approach: Go Balance Health – FIG & FIN
+        </p>
         <p className="text-lg text-gray-800 mb-4">
           With a focus on the whole person, I incorporate evidence-based
-          programs to enhance cognitive, sensory, and auditory processing. I
-          utilize <b>The Alert Program</b> to support self-regulation,{" "}
-          <b>The Interactive Metronome Program</b> to improve timing and
-          coordination, <b> The Listening Program (TLP)</b> to strengthen
-          auditory processing and attention, and
-          <b> Lindamood-Bell's Visualizing and Verbalizing Program</b> to
-          enhance language comprehension and thinking skills. By weaving these
-          methods together, I help children and adults overcome challenges in
-          learning, communication, and daily life.
+          programs to enhance cognitive skills, executive functions, auditory
+          and language processing. We work together to{" "}
+          <b>Fill-in-the-Gaps (FIG) </b>
+          and utilize <b>Functional Intuitive Nourishment (FIN)</b> to build
+          daily functioning and <b>“balance your health”.</b> I utilize{" "}
+          <b>The Alert Program</b> to support self-regulation, The
+          <b> Interactive Metronome Program</b> to improve timing and
+          coordination, <b>The Listening Program (TLP)</b> to strengthen
+          auditory processing and attention, and{" "}
+          <b>Lindamood-Bell's Visualizing and Verbalizing Program</b> to enhance
+          language comprehension and thinking skills. I help children and adults
+          overcome challenges in learning, communication, and daily life.
         </p>
 
         <p className="text-lg text-gray-900 font-bold pb-2">
@@ -62,12 +67,13 @@ export function About() {
 
         <p className="text-lg text-gray-900 font-bold pb-2">My Background</p>
         <p className="text-lg text-gray-800 mb-4">
-          I am a <b>licensed speech-language pathologist</b> and a{" "}
-          <b>functional/integrative health and nutrition coach</b> with
-          extensive training in auditory and sensory processing,
-          self-regulation, and executive functioning. By combining my expertise
-          with innovative programs, I provide personalized strategies that
-          support learning, communication, and well-being.
+          I am a <b>functional/integrative health, nutrition education coach</b>{" "}
+          and <b>a licensed speech-language pathologist</b> with extensive
+          training in searching for underlying causes and filling in the gaps to
+          address auditory and language processing, communication challenges,
+          and executive functioning. By combining my expertise with innovative
+          programs, I provide personalized strategies that support learning,
+          communication, and well-being.
           <div className="pb-2"></div>
           I'd love to connect if you're seeking a compassionate, knowledgeable
           guide to help navigate learning and processing challenges. Let’s work
@@ -75,16 +81,8 @@ export function About() {
         </p>
 
         <p className="text-lg text-gray-900 font-bold pb-2">
-          Unlock Potential Through Holistic Health & Education Support
-        </p>
-        <p className="text-lg text-gray-800 mb-4">
-          At <b>GO BALANCE HEALTH AND WELL BEING</b>, we believe in a
-          comprehensive, personalized approach to learning and wellness. Our
-          services are designed to help young adults and families overcome
-          challenges in executive functioning, auditory and language processing,
-          and learning, equipping them with the essential tools needed to
-          succeed in all areas of their lives—academically, socially, and
-          personally.
+          If you want to book a free discovery appointment, contact me at
+          gobalancehealth@gmail.com.
         </p>
       </div>
     </div>
