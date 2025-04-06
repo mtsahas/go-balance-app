@@ -89,9 +89,8 @@ export function Resources() {
         },
         { title: "APD Support", url: " https://www.apdsupport.com/" },
         {
-          title:
-            "Hearing and Balance Symptoms and Conditions - The American Academy of Audiology",
-          url: "https://www.audiology.org/consumers-and-patients/hearing-and-balance/",
+          title: "The American Academy of Audiology",
+          url: "https://www.audiology.org/consumers-and-patients/hearing-and-balance/auditory-processing-disorders/",
         },
       ],
     },
@@ -215,7 +214,9 @@ export function Resources() {
   return (
     <div className="bg-white-50 w-screen">
       <div className="mb-10">
-        <h1 className="p-3 text-3xl font-bold text-center" id="books">
+        <h1
+          className="p-3 text-3xl text-sky-800 font-bold text-center"
+          id="books">
           Recommended Books
         </h1>
         <div className="flex flex-row flex-wrap gap-5 sm:gap-8 text-center justify-center">
@@ -233,12 +234,16 @@ export function Resources() {
         </div>
       </div>
       <div className="p-5">
-        <h1 className="text-3xl text-center font-bold" id="websites">
+        <h1
+          className="text-3xl text-center text-sky-800  font-bold"
+          id="websites">
           Informational Websites
         </h1>
         {websites.map((item, index) => (
           <div className="px-10" key={index}>
-            <h2 className="text-2xl font-bold mt-4">{item.section}</h2>
+            <h2 className="text-2xl text-emerald-800 font-bold mt-4">
+              {item.section}
+            </h2>
             <ul className="p-3 list-disc">
               {item.links.map((website, i) => (
                 <li key={i} className="p-3 text-xl">
@@ -246,7 +251,7 @@ export function Resources() {
                     href={website.url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-blue-800 hover:underline">
+                    className="text-sky-800 hover:underline">
                     {website.title}
                   </a>
                 </li>

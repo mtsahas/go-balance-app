@@ -6,10 +6,10 @@ import { SingleLevelDropdownMenu } from "./subcomponents/SingleLevelDropdown";
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const navStyle =
-    "font-serif text-lg font-semibold text-black hover:text-green-800 transition duration-300 ease-in-out transform";
+    "text-lg font-semibold text-black hover:text-sky-900 transition duration-300 ease-in-out transform";
 
   return (
-    <nav className="bg-green-50 drop-shadow-lg p-5 sticky top-0 z-20">
+    <nav className="bg-emerald-50 drop-shadow-lg p-5 sticky top-0 z-20">
       <div className="flex justify-between items-center">
         <button
           className="md:hidden p-2 focus:outline-none"
@@ -18,14 +18,14 @@ export function Navbar() {
         </button>
       </div>
       <ul
-        className={`md:flex space-x-6 bg-pgreen-50  items-center justify-center md:static absolute w-full left-0 md:w-auto md:flex-row flex-col md:space-y-0 space-y-4 p-5 md:p-0 shadow-lg md:shadow-none transition-all duration-300 ease-in-out ${
+        className={`md:flex space-x-6 bg-emerald-50  items-center justify-center md:static absolute w-full left-0 md:w-auto md:flex-row flex-col md:space-y-0 space-y-4 p-5 md:p-0 shadow-lg md:shadow-none transition-all duration-300 ease-in-out ${
           isOpen ? "block" : "hidden md:flex"
         }`}>
         <li>
           <NavLink
             to="/"
             className={({ isActive }) =>
-              navStyle + (isActive ? " text-green-800" : "")
+              navStyle + (isActive ? " text-sky-900" : "")
             }
             onClick={() => setIsOpen(false)}>
             Home
@@ -36,7 +36,7 @@ export function Navbar() {
             to="/about"
             onClick={() => setIsOpen(false)}
             className={({ isActive }) =>
-              navStyle + (isActive ? " text-green-800" : "")
+              navStyle + (isActive ? " text-sky-900" : "")
             }>
             About
           </NavLink>
@@ -46,7 +46,7 @@ export function Navbar() {
             to="/isthisyou"
             onClick={() => setIsOpen(false)}
             className={({ isActive }) =>
-              navStyle + (isActive ? " text-green-800" : "")
+              navStyle + (isActive ? " text-sky-900" : "")
             }>
             Testimonials
           </NavLink>
@@ -56,7 +56,7 @@ export function Navbar() {
             to="/services"
             onClick={() => setIsOpen(false)}
             className={({ isActive }) =>
-              navStyle + (isActive ? " text-green-800" : "")
+              navStyle + (isActive ? " text-sky-900" : "")
             }>
             Services
           </NavLink>
@@ -66,7 +66,7 @@ export function Navbar() {
             to="/specialprograms"
             onClick={() => setIsOpen(false)}
             className={({ isActive }) =>
-              navStyle + (isActive ? " text-green-800" : "")
+              navStyle + (isActive ? " text-sky-900" : "")
             }>
             Special Programs
           </NavLink>
@@ -115,12 +115,12 @@ export function Navbar() {
           />
         </li>
         {/* Right-Aligned Item */}
-        <li className="absolute right-2 p-2 text-right font-semibold hidden sm:inline font-serif">
+        <li className="absolute right-2 p-2 text-right font-semibold hidden sm:inline">
           <p>Contact us today!</p>
           <p>gobalancehealth@gmail.com</p>
         </li>{" "}
       </ul>
-      <div className="absolute right-2 p-2 text-right top-0 font-semibold sm:hidden font-serif">
+      <div className="absolute right-2 p-2 text-right top-0 font-semibold sm:hidden">
         <p>Contact gobalancehealth@gmail.com</p>
       </div>
     </nav>

@@ -3,7 +3,7 @@ export function About() {
   return (
     <div className="justify-center p-8 bg-white-50">
       <div className="w-full justify-center p-6 max-w-6xl mx-auto">
-        <h1 className="text-3xl font-bold text-gray-900 mb-4">About Me</h1>
+        <h1 className="text-3xl font-bold text-sky-800  mb-4">About Me</h1>
 
         {/* Float the image to the left so text wraps around it */}
         <img
@@ -12,11 +12,11 @@ export function About() {
           alt="Headshot"
         />
 
-        <p className="text-lg text-gray-900 font-bold pb-2">
+        <p className="text-lg text-sky-800 font-bold pb-2">
           Evaluator. Educator. Coach. Mom.
         </p>
 
-        <p className="text-lg text-gray-800 mb-4">
+        <p className="text-lg mb-4">
           I help individuals build strong foundations for learning,
           communication, and well-being by integrating specialized programs that
           support brain function, processing, and self-regulation. Whether at
@@ -24,10 +24,10 @@ export function About() {
           empower you toward meaningful, lasting progress.
         </p>
 
-        <p className="text-lg text-gray-900 font-bold pb-2">
+        <p className="text-lg text-sky-800  font-bold pb-2">
           My Approach: Go Balance Health – FIG & FIN
         </p>
-        <p className="text-lg text-gray-800 mb-4">
+        <p className="text-lg mb-4">
           With a focus on the whole person, I incorporate evidence-based
           programs to enhance cognitive skills, executive functions, auditory
           and language processing. We work together to{" "}
@@ -43,10 +43,10 @@ export function About() {
           overcome challenges in learning, communication, and daily life.
         </p>
 
-        <p className="text-lg text-gray-900 font-bold pb-2">
+        <p className="text-lg text-sky-800 font-bold pb-2">
           Why I Do What I Do
         </p>
-        <p className="text-lg text-gray-800 mb-4">
+        <p className="text-lg mb-4">
           Throughout my career, I’ve seen how processing, focus, and
           comprehension struggles can impact confidence and daily function. I
           believe that with the right tools and guidance, anyone can develop the
@@ -55,8 +55,8 @@ export function About() {
           unique needs.
         </p>
 
-        <p className="text-lg text-gray-900 font-bold pb-2">My Philosophy</p>
-        <p className="text-lg text-gray-800 mb-4">
+        <p className="text-lg text-sky-800  font-bold pb-2">My Philosophy</p>
+        <p className="text-lg mb-4">
           Just like constructing a strong building, personal growth and learning
           require a stable foundation. My approach starts from the ground
           up—strengthening core cognitive and sensory functions—so that
@@ -65,8 +65,8 @@ export function About() {
           success.
         </p>
 
-        <p className="text-lg text-gray-900 font-bold pb-2">My Background</p>
-        <p className="text-lg text-gray-800 mb-4">
+        <p className="text-lg text-sky-800  font-bold pb-2">My Background</p>
+        <p className="text-lg mb-4">
           I am a <b>functional/integrative health, nutrition education coach</b>{" "}
           and <b>a licensed speech-language pathologist</b> with extensive
           training in searching for underlying causes and filling in the gaps to
@@ -80,7 +80,7 @@ export function About() {
           together to unlock potential and create new opportunities for success.
         </p>
 
-        <p className="text-lg text-gray-900 font-bold pb-2">
+        <p className="text-lg text-sky-800 font-bold pb-2">
           If you want to book a free discovery appointment, contact me at
           gobalancehealth@gmail.com.
         </p>

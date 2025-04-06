@@ -1,11 +1,11 @@
 import React from "react";
 export function Services() {
   return (
-    <div className="min-h-screen bg-white-50 text-gray-900 p-6">
+    <div className="min-h-screen bg-white-50 p-6">
       <div className="max-w-5xl mx-auto text-center">
-        <h1 className="text-4xl font-bold mb-6">Our Services</h1>
+        <h1 className="text-4xl font-bold mb-6 text-sky-800">Our Services</h1>
 
-        <h1 className="text-3xl font-bold mb-6">
+        <h1 className="text-3xl text-sky-800 font-bold mb-6">
           Unlock Potential Through Holistic Health & Education Support
         </h1>
         <p className="text-lg mb-6">
@@ -17,7 +17,7 @@ export function Services() {
           succeed in all areas of their lives—academically, socially, and
           personally.
         </p>
-        <h2 className="text-2xl font-semibold mt-6 mb-4">
+        <h2 className="text-2xl text-sky-800 font-semibold mt-6 mb-4">
           Health & Education Discovery Sessions
         </h2>
         <p className="text-lg mb-6">
@@ -41,7 +41,7 @@ export function Services() {
           <li>Personalized roadmap for growth</li>
         </ul>
 
-        <h2 className="text-2xl font-semibold mt-6 mb-4">
+        <h2 className="text-2xl text-sky-800 font-semibold mt-6 mb-4">
           Comprehensive Speech-Language Evaluations
         </h2>
         <p className="text-lg mb-6">
@@ -67,7 +67,7 @@ export function Services() {
           </li>
         </ul>
 
-        <h2 className="text-2xl font-semibold mt-6 mb-4">
+        <h2 className="text-2xl text-sky-800 font-semibold mt-6 mb-4">
           Holistic Health & Education 12-Week Coaching Program
         </h2>
         <p className="text-lg mb-6">
@@ -90,146 +90,168 @@ export function Services() {
           />
         </div>
 
-        <ul className="list-disc list-inside text-lg mb-6 text-left">
-          <li>
-            Learn principles of bio-individual nourishment to support brain
-            health
-          </li>
-          <li>
-            Functional shifts in timing, rhythm, listening, and executive
-            functioning
-          </li>
-          <li>
-            Discover why and how the environment (internal and external) affects
-            learning
-          </li>
-        </ul>
-        {/*  
-        <div className="max-w-6xl mx-auto p-6 shadow-lg bg-white rounded-2xl border border-gray-200 m-5 justify-center items-center">
-          <h1 className="text-2xl font-bold text-center text-gray-900 p-4">
-            What can you expect?
-          </h1>
-          <ul className="list-disc list-inside text-lg text-left px-6 pb-6">
-            <li>
-              An opportunity to learn the principles of bio-individual
-              nourishment.
-            </li>
-            <li>
-              Meaningful and functional improvement in timing, rhythm, listening
-              and executive functioning (e.g., self-regulation) upon completion
-              of specific programs geared to these skills.
-            </li>
-            <li>
-              Shifts in brain-body balance so that you can more easily access
-              your learning pathways and re- wire/strengthen neural connections
-              in 3 to 12 months through completion of specialty programs.
-            </li>
-            <li>
-              Support, guidance and an accountability partner to help you create
-              and establish new daily habits and routines that can improve your
-              daily living and help you facilitate access to your learning
-              pathways.
-            </li>
-            <li>
-              Supervision, guidance and feedback while participating in the
-              specialized programs geared to improve the neural timing
-              underpinnings (brain synchronization, rhythm, and timing) so that
-              you may see improvements in memory, auditory processing, sensory
-              processing and language processing.
-            </li>
-          </ul>
-        </div>
-        */}
-        <div className="text-left">
+        <div className="text-left flex flex-row flex-wrap md:flex-col">
           <h3 className="text-xl font-semibold mt-4 mb-2 text-left">
             Areas of Focus:
           </h3>
-          <div className="bg-white p-6 rounded-lg shadow-md my-4">
-            <h4 className="text-lg font-semibold mt-4">
-              Support for Learning Differences: Personalized Strategies for
-              Success
-            </h4>
-            <ul className="list-disc list-inside text-lg mb-6 text-left">
-              <li>Identify and address individual learning challenges</li>
-              <li>Implement multi-sensory strategies for improved retention</li>
-              <li>
-                Build confidence and reduce frustration in academic settings
-              </li>
-            </ul>
-            <h2>
-              <b>Why It Matters:</b> Learning differences don’t have to limit
-              success. With proper guidance, individuals can develop strategies
-              that turn learning difficulties into strengths.
-            </h2>
-          </div>
-          <div className="bg-white p-6 rounded-lg shadow-md my-4">
-            <h4 className="text-lg font-semibold mt-4">
-              Executive Functioning: Mastering Organization & Self-Regulation
-            </h4>
-            <ul className="list-disc list-inside text-lg mb-6 text-left ml-10">
-              <li>Learn to initiate, plan, and organize effectively</li>
-              <li>Strengthen problem-solving and decision-making skills</li>
-              <li>
-                Develop strategies for self-regulation and sustained attention
-              </li>
-            </ul>
-            <h2>
-              <b>Why It Matters:</b> Learning differences don’t have to limit
-              success. With proper guidance, individuals can develop strategies
-              that turn learning difficulties into strengths.{" "}
-            </h2>
-          </div>
-          <div className="bg-white p-6 rounded-lg shadow-md my-4">
-            <h4 className="text-lg font-semibold mt-4">
-              Auditory Processing: Strengthening How the Brain Understands Sound
-            </h4>
-            <ul className="list-disc list-inside text-lg mb-6 text-left ml-10">
-              <li>
-                Improve the ability to filter and interpret auditory information
-              </li>
-              <li>Enhance listening skills in noisy environments</li>
-              <li>
-                Strengthen memory and comprehension through targeted strategies
-              </li>
-            </ul>
-            <h2>
-              <b>Why It Matters:</b>If you or your child struggles to follow
-              directions, process spoken information, or retain details,
-              auditory processing training can significantly improve
-              communication and learning outcomes.
-            </h2>
-          </div>
-          <div className="bg-white p-6 rounded-lg shadow-md my-4">
-            <h4 className="text-lg font-semibold mt-4">
-              Phonological Processing: Building Strong Reading & Writing Skills
-            </h4>
-            <ul className="list-disc list-inside text-lg mb-6 text-left ml-10">
-              <li>Boost phonemic awareness and decoding skills</li>
-              <li>Improve reading fluency and comprehension</li>
-              <li>Strengthen spelling and written expression</li>
-            </ul>
-            <h2>
-              <b>Why It Matters:</b> Phonological processing is critical for
-              literacy development—strong skills in this area leads to better
-              reading and writing performance.
-            </h2>
-          </div>
-          <div className="bg-white p-6 rounded-lg shadow-md my-4">
-            <h4 className="text-lg font-semibold mt-4">
-              Language Processing: Enhancing Communication & Comprehension
-            </h4>
-            <ul className="list-disc list-inside text-lg mb-6 text-left ml-10">
-              <li>Develop stronger verbal expression and vocabulary</li>
-              <li>Improve sentence structure and language organization</li>
-              <li>Strengthen reading comprehension and storytelling skills</li>
-            </ul>
-            <h2>
-              <b>Why It Matters:</b> Language processing affects academic
-              performance and social interactions—improving these skills help
-              individuals communicate more effectively and confidently.
-            </h2>
-          </div>
+          <div className="flex flex-row flex-wrap gap-4 justify-center">
+            <div className="bg-emerald-50 p-3 rounded-lg shadow-md w-full md:w-12/25">
+              <h4 className="text-lg font-semibold mt-4">
+                Support for Learning Differences: Personalized Strategies for
+                Success
+              </h4>
+              <ul className="list-disc list-inside text-lg mb-6 text-left">
+                <li>Identify and address individual learning challenges</li>
+                <li>
+                  Implement multi-sensory strategies for improved retention
+                </li>
+                <li>
+                  Build confidence and reduce frustration in academic settings
+                </li>
+              </ul>
+              <h2>
+                <b>Why It Matters:</b> Learning differences don’t have to limit
+                success. With proper guidance, individuals can develop
+                strategies that turn learning difficulties into strengths.
+              </h2>
+            </div>
 
+            <div className="bg-sky-50 p-3 rounded-lg shadow-md w-full md:w-12/25">
+              <h4 className="text-lg font-semibold mt-4">
+                Functional Intuitive Nourishment (FIN): Nourishing the Mind and
+                Body
+              </h4>
+              <ul className="list-disc list-inside text-lg mb-6 text-left">
+                <li>
+                  Learn the concepts of{" "}
+                  <span className="font-semibold"> Bio-Individuality</span>
+                </li>
+                <li>
+                  Recognize signs when the body and mind are ready for learning
+                </li>
+                <li>
+                  Look at dietary and life-style changes for nourishment and to
+                  improve daily functioning
+                </li>
+                <li>
+                  Understand how to reduce eliminate environmental /
+                  stressors/toxins
+                </li>
+              </ul>
+              <h2>
+                <b>Why It Matters:</b> Individuals are all different and need
+                different nourishment for their body to function properly and
+                make learning easier and facilitate listening across settings so
+                you have the energy and stamina to participate in daily living
+                functions at home, work and/or school.
+              </h2>
+            </div>
+
+            <div className="bg-emerald-50 p-3 rounded-lg shadow-md w-full md:w-12/25">
+              <h4 className="text-lg font-semibold mt-4">
+                Timing, Rhythm, Integration, Movement (TRIM)
+              </h4>
+              <ul className="list-disc list-inside text-lg mb-6 text-left">
+                <li>Learn about circadian rhythms: Sleep/Awake Cycles</li>
+                <li>
+                  Improve timing and rhythm skills through innovative programs
+                  and strategies
+                </li>
+                <li>
+                  Understanding how timing and rhythm skills are critical to
+                  learning and daily functioning
+                </li>
+                <li>
+                  Brainstorm and practice movement strategies to enhance
+                  learning
+                </li>
+              </ul>
+              <h2>
+                <b>Why It Matters:</b> Timing and rhythm are critical to daily
+                living and functioning: sleep, digestion, processing
+                information, time management. Speech, reading and listening
+                abilities have components of temporal (timing) and rhythmic
+                patterns.
+              </h2>
+            </div>
+
+            <div className="bg-sky-50 p-3 rounded-lg shadow-md w-full md:w-12/25">
+              <h4 className="text-lg font-semibold mt-4">
+                Executive Functioning: Mastering Organization & Self-Regulation
+              </h4>
+              <ul className="list-disc list-inside text-lg mb-6 text-left ml-10">
+                <li>Learn to initiate, plan, and organize effectively</li>
+                <li>Strengthen problem-solving and decision-making skills</li>
+                <li>
+                  Develop strategies for self-regulation and sustained attention
+                </li>
+              </ul>
+              <h2>
+                <b>Why It Matters:</b> Executive functioning is the brain’s
+                command center—strong skills in this area lead to better
+                academic performance, time management, and emotional resilience.
+              </h2>
+            </div>
+
+            <div className="bg-emerald-50 p-3 rounded-lg shadow-md w-full md:w-12/25">
+              <h4 className="text-lg font-semibold mt-4">
+                Auditory Processing: Strengthening How the Brain Understands
+                Sound
+              </h4>
+              <ul className="list-disc list-inside text-lg mb-6 text-left">
+                <li>
+                  Improve the ability to filter and interpret auditory
+                  information
+                </li>
+                <li>Enhance listening skills in noisy environments</li>
+                <li>
+                  Strengthen memory and comprehension through targeted
+                  strategies
+                </li>
+              </ul>
+              <h2>
+                <b>Why It Matters:</b> If you or your child struggles to follow
+                directions, process spoken information, or retain details,
+                auditory processing training can significantly improve
+                communication and learning outcomes.
+              </h2>
+            </div>
+
+            <div className="bg-sky-50 p-3 rounded-lg shadow-md w-full md:w-12/25">
+              <h4 className="text-lg font-semibold mt-4">
+                Phonological Processing: Building Strong Reading & Writing
+                Skills
+              </h4>
+              <ul className="list-disc list-inside text-lg mb-6 text-left">
+                <li>Boost phonemic awareness and decoding skills</li>
+                <li>Improve reading fluency and comprehension</li>
+                <li>Strengthen spelling and written expression</li>
+              </ul>
+              <h2>
+                <b>Why It Matters:</b> Phonological processing is critical for
+                literacy development—strong skills in this area leads to better
+                reading and writing performance.
+              </h2>
+            </div>
+
+            <div className="bg-emerald-50 p-3 rounded-lg shadow-md w-full md:w-12/25">
+              <h4 className="text-lg font-semibold mt-4">
+                Language Processing: Enhancing Communication & Comprehension
+              </h4>
+              <ul className="list-disc list-inside text-lg mb-6 text-left">
+                <li>Develop stronger verbal expression and vocabulary</li>
+                <li>Improve sentence structure and language organization</li>
+                <li>
+                  Strengthen reading comprehension and storytelling skills
+                </li>
+              </ul>
+              <h2>
+                <b>Why It Matters:</b> Language processing affects academic
+                performance and social interactions—improving these skills help
+                individuals communicate more effectively and confidently.
+              </h2>
+            </div>
+          </div>
           <h2 className="text-2xl font-semibold mt-6 mb-4">
             Why Choose Our Approach?
           </h2>
