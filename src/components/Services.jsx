@@ -2,7 +2,7 @@ import React from "react";
 export function Services() {
   return (
     <div className="min-h-screen bg-white-50 p-6">
-      <div className="max-w-5xl mx-auto text-center">
+      <div className="max-w-6xl mx-auto text-center">
         <h1 className="text-4xl font-bold mb-6 text-sky-800">Our Services</h1>
 
         <h1 className="text-3xl text-sky-800 font-bold mb-6">
@@ -95,7 +95,7 @@ export function Services() {
             Areas of Focus:
           </h3>
           <div className="flex flex-row flex-wrap gap-4 justify-center">
-            <div className="bg-emerald-50 p-3 rounded-lg shadow-md w-full md:w-12/25">
+            <div className="bg-green-100 p-3 rounded-lg shadow-md w-full md:w-12/25">
               <h4 className="text-lg font-semibold mt-4">
                 Support for Learning Differences: Personalized Strategies for
                 Success
@@ -116,7 +116,7 @@ export function Services() {
               </h2>
             </div>
 
-            <div className="bg-sky-50 p-3 rounded-lg shadow-md w-full md:w-12/25">
+            <div className="bg-red-100 p-3 rounded-lg shadow-md w-full md:w-12/25">
               <h4 className="text-lg font-semibold mt-4">
                 Functional Intuitive Nourishment (FIN): Nourishing the Mind and
                 Body
@@ -147,7 +147,7 @@ export function Services() {
               </h2>
             </div>
 
-            <div className="bg-emerald-50 p-3 rounded-lg shadow-md w-full md:w-12/25">
+            <div className="bg-orange-100 p-3 rounded-lg shadow-md w-full md:w-12/25">
               <h4 className="text-lg font-semibold mt-4">
                 Timing, Rhythm, Integration, Movement (TRIM)
               </h4>
@@ -175,11 +175,11 @@ export function Services() {
               </h2>
             </div>
 
-            <div className="bg-sky-50 p-3 rounded-lg shadow-md w-full md:w-12/25">
+            <div className="bg-sky-100 p-3 rounded-lg shadow-md w-full md:w-12/25">
               <h4 className="text-lg font-semibold mt-4">
                 Executive Functioning: Mastering Organization & Self-Regulation
               </h4>
-              <ul className="list-disc list-inside text-lg mb-6 text-left ml-10">
+              <ul className="list-disc list-inside text-lg mb-6 text-left">
                 <li>Learn to initiate, plan, and organize effectively</li>
                 <li>Strengthen problem-solving and decision-making skills</li>
                 <li>
@@ -193,7 +193,7 @@ export function Services() {
               </h2>
             </div>
 
-            <div className="bg-emerald-50 p-3 rounded-lg shadow-md w-full md:w-12/25">
+            <div className="bg-purple-100 p-3 rounded-lg shadow-md w-full md:w-12/25">
               <h4 className="text-lg font-semibold mt-4">
                 Auditory Processing: Strengthening How the Brain Understands
                 Sound
@@ -217,7 +217,7 @@ export function Services() {
               </h2>
             </div>
 
-            <div className="bg-sky-50 p-3 rounded-lg shadow-md w-full md:w-12/25">
+            <div className="bg-yellow-100 p-3 rounded-lg shadow-md w-full md:w-12/25">
               <h4 className="text-lg font-semibold mt-4">
                 Phonological Processing: Building Strong Reading & Writing
                 Skills
@@ -234,7 +234,7 @@ export function Services() {
               </h2>
             </div>
 
-            <div className="bg-emerald-50 p-3 rounded-lg shadow-md w-full md:w-12/25">
+            <div className="bg-indigo-100 p-3 rounded-lg shadow-md w-full md:w-12/25">
               <h4 className="text-lg font-semibold mt-4">
                 Language Processing: Enhancing Communication & Comprehension
               </h4>

@@ -118,7 +118,8 @@ export function Home() {
 
             <div className="mt-8 text-center">
               <p className="text-xl font-bold text-emerald-800 mb-3">
-                If this sounds like you, let’s talk.
+                If this sounds like you, let’s talk. Email me to schedule a free
+                15-minute call.
               </p>
               {/* <a
                 href="#book"

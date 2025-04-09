@@ -25,6 +25,11 @@ export function SpecialPrograms() {
             <li>Enhances focus and attention</li>
             <li>Supports emotional and behavioral control</li>
           </ul>
+          <p className="mt-4 text-blue-800 hover:underline">
+            <a href="https://alertprogram.com" target="_blank">
+              Click here to learn more.
+            </a>
+          </p>
         </div>
       ),
     },
@@ -49,6 +54,11 @@ export function SpecialPrograms() {
             <li>Enhances motor coordination and balance</li>
             <li>Strengthens memory and cognitive processing</li>
           </ul>
+          <p className="mt-4 text-blue-800 hover:underline">
+            <a href="https://www.interactivemetronome.com" target="_blank">
+              Click here to learn more.
+            </a>
+          </p>
         </div>
       ),
     },
@@ -72,6 +82,11 @@ export function SpecialPrograms() {
             <li>Supports emotional and sensory regulation</li>
             <li>Enhances focus, learning, and communication</li>
           </ul>
+          <p className="mt-4 text-blue-800 hover:underline">
+            <a href="https://advancedbrain.com/about-tlp/" target="_blank">
+              Click here to learn more.
+            </a>
+          </p>
         </div>
       ),
     },

@@ -46,8 +46,8 @@ export function Resources() {
       link: "https://www.amazon.com/This-Your-Child-Doris-Rapp/dp/0688119077#:~:text=Doris%20Rapp%20offers%20a%20simple,feel%20unwell%20or%20act%20inappropriately.",
     },
     {
-      path: "/book8.jpg",
-      link: "https://www.amazon.com/Sound-Hope-Recognizing-Treating-Processing/dp/0345512189",
+      path: "/water-book.jpg",
+      // link: "https://www.amazon.com/Sound-Hope-Recognizing-Treating-Processing/dp/0345512189",
     },
     {
       path: "/book9.jpg",
@@ -142,10 +142,6 @@ export function Resources() {
           url: "https://drjockers.com/adhd/",
         },
         {
-          title: "Dr. Carolyn Dean MD ND",
-          url: "https://drcarolyndean.com",
-        },
-        {
           title: "Home - Food Intolerance Network ",
           url: "https://www.fedup.com.au",
         },
@@ -219,7 +215,7 @@ export function Resources() {
           id="books">
           Recommended Books
         </h1>
-        <div className="flex flex-row flex-wrap gap-5 sm:gap-8 text-center justify-center">
+        <div className="flex flex-row flex-wrap gap-1 sm:gap-8 text-center justify-center">
           {books.map((book, index) => (
             <div
               key={index}
