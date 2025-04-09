@@ -5,7 +5,7 @@ export function Testimonials() {
       <div className="w-full justify-center p-6 max-w-6xl mx-auto">
         <h1 className="text-3xl font-bold text-sky-800 mb-4">Testimonials</h1>
 
-        <p className="text-lg mb-4">
+        <p className="text-xl mb-4">
           Here are some testimonials from individuals and families I've had the
           privilege to work with:
         </p>

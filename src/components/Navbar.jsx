@@ -43,7 +43,7 @@ export function Navbar() {
         </li>
         <li>
           <NavLink
-            to="/isthisyou"
+            to="/testimonials"
             onClick={() => setIsOpen(false)}
             className={({ isActive }) =>
               navStyle + (isActive ? " text-sky-900" : "")
