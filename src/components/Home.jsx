@@ -1,5 +1,6 @@
 import React from "react";
 import { IsThisYou } from "./subcomponents/IsThisYou";
+import { Testimonials } from "./Testimonials";
 
 export function Home() {
   return (
@@ -42,62 +43,26 @@ export function Home() {
             </div>
           </div>
         </section>
-
-        {/* How Section */}
-        <section className="bg-emerald-50 py-12 px-6 text-center">
-          <h2 className="text-3xl font-semibold text-sky-800 mb-6">How?</h2>
-          <ul className="max-w-3xl mx-auto space-y-4 text-lg text-gray-700 font-medium">
-            <li>🌱 Fill-in-The Gaps (FIG)</li>
-            <li>🥦 Functional Intuitive Nourishment (FIN)</li>
-            <li>
-              🌀 Timing, Rhythm, Integration, and Movement (TRIM) Skill Building
-            </li>
-            <li>🧘 Calming your System so You Can Learn</li>
-            <li>🔄 Build New Healthy Habits & Routines</li>
-            <li>
-              🧰 Expand Your Toolbox to help you Listen, Learn and Process
-            </li>
-          </ul>
-        </section>
-
-        {/* Scripture Quote */}
-        <section className="bg-white text-center py-12 px-4">
-          <blockquote className="italic text-2xl text-emerald-900 max-w-2xl mx-auto">
-            "I will instruct thee and teach thee in the way which thou shalt go:
-            I will guide thee with mine eye."
-          </blockquote>
-          <p className="mt-4 font-semibold text-sky-800">— Psalm 32:8 KV</p>
-        </section>
-
-        {/* CTA Section */}
-        {/* Encouragement Mantra Section */}
-        <section className="bg-sky-50 py-12 px-6 text-center">
-          <h2 className="text-2xl sm:text-3xl font-semibold text-sky-800 tracking-wide">
-            Be Diligent. Be Faithful. Be Hopeful. Be Persistent. Be Patient.
-          </h2>
-        </section>
-
         {/* "Is This You?" Section */}
-        <section className="bg-white py-16 px-6">
+        <section className="bg-white py-5 px-6">
           <div className="max-w-4xl mx-auto text-gray-800">
-            <h2 className="text-3xl font-bold text-emerald-700 text-center mb-8">
+            <h2 className="text-4xl font-bold text-emerald-700 text-center mb-8">
               Is This You?
             </h2>
-
-            <ul className="space-y-5 text-lg list-disc">
+            <ul className="space-y-5 text-xl list-disc">
               <li>
                 Are you ready to work to enhance focus and learning, restore
                 balance, and boost energy?
               </li>
               <li>
                 Do you want to uncover root causes and missing links affecting
-                you or your loved one’s ability to learn, to listen, to focus,
-                and perform optimally?
+                you or your loved one’s ability to learn, listen, focus, and
+                perform optimally?
               </li>
               <li>
-                Are you frustrated with educational plans or therapy (related
-                services) not working or not addressing you or your loved one as
-                a whole person?
+                Are you frustrated with educational plans or interventions not
+                working or not addressing you or your loved one as a whole
+                person?
               </li>
               <li>
                 Do you struggle with implementing professional recommendations
@@ -129,6 +94,38 @@ export function Home() {
             </div>
           </div>
         </section>
+        {/* Scripture Quote */}
+        <section className="bg-emerald-50 text-center py-12 px-4">
+          <blockquote className="italic text-2xl text-emerald-900 max-w-2xl mx-auto">
+            "I will instruct thee and teach thee in the way which thou shalt go:
+            I will guide thee with mine eye."
+          </blockquote>
+          <p className="mt-4 font-semibold text-sky-800">— Psalm 32:8 KJV</p>
+        </section>
+        {/* How Section */}
+        <section className=" py-12 px-6 text-center">
+          <h2 className="text-3xl font-semibold text-sky-800 mb-6">The Keys</h2>
+          <ul className="max-w-3xl mx-auto space-y-4 text-lg text-gray-700 font-medium">
+            <li>🌱 Fill-in-The Gaps (FIG)</li>
+            <li>🥦 Functional Intuitive Nourishment (FIN)</li>
+            <li>
+              🌀 Timing, Rhythm, Integration, and Movement (TRIM) Skill Building
+            </li>
+            <li>🧘 Calming your System so You Can Learn</li>
+            <li>🔄 Build New Healthy Habits & Routines</li>
+            <li>
+              🧰 Expand Your Toolbox to help you Listen, Learn and Process
+            </li>
+          </ul>
+        </section>
+        {/* CTA Section */}
+        {/* Encouragement Mantra Section */}
+        <section className="bg-emerald-50 py-12 px-6 text-center">
+          <h2 className="text-2xl sm:text-3xl font-semibold text-sky-800 tracking-wide">
+            Be Diligent. Be Faithful. Be Hopeful. Be Persistent. Be Patient.
+          </h2>
+        </section>
+        <Testimonials />
       </div>
     </>
   );

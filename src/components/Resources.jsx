@@ -81,7 +81,7 @@ export function Resources() {
       links: [
         {
           title: "American Speech Language Hearing Association",
-          url: "https://www.asha.org/public/early-identification-of-speech-language-and-hearing-disorders/?srsltid=AfmBOope6l_p49QrwVFDLad1Q72_T4abgQTdfDF7BKYN3q9grfeZrzJ_",
+          url: "https://www.asha.org/public/",
         },
         {
           title: "National Coalition for Auditory Processing Disorders",
@@ -129,8 +129,7 @@ export function Resources() {
           url: "https://mychildwillthrive.com",
         },
         {
-          title:
-            "Dr. Nicole Beurkens: Special Education Teacher, Nutritionist, Psychologist",
+          title: "Dr. Nicole Beurkens: Nutritionist & Psychologist",
           url: "https://www.drbeurkens.com/a-holistic-approach-to-improving-adhd-symptoms-in-children-and-teens/",
         },
         {
@@ -213,7 +212,7 @@ export function Resources() {
         <h1
           className="p-3 text-3xl text-sky-800 font-bold text-center"
           id="books">
-          Recommended Books
+          Books You May Find of Interest
         </h1>
         <div className="flex flex-row flex-wrap gap-1 sm:gap-8 text-center justify-center">
           {books.map((book, index) => (

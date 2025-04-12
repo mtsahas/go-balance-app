@@ -1,7 +1,7 @@
 import React from "react";
 export function Testimonials() {
   return (
-    <div className="justify-center p-8">
+    <div className="justify-center p-8 bg-sky-50">
       <div className="w-full justify-center p-6 max-w-6xl mx-auto">
         <h1 className="text-3xl font-bold text-sky-800 mb-4">Testimonials</h1>
 
@@ -26,10 +26,10 @@ export function Testimonials() {
         </blockquote>
 
         <blockquote className="border-l-4 border-emerald-800 pl-4 italic text-gray-700 mb-8 text-xl">
-          "Working with Cally was so helpful for my self-esteem. 1became more
+          "Working with Cally was so helpful for my self-esteem. I became more
           confident in my social interactions with my peers, and my grades
-          improved. was able to focus better at school. She was kind patient and
-          knowledgeable." - A student
+          improved. I was able to focus better at school. She was kind patient
+          and knowledgeable." - A student
         </blockquote>
       </div>
     </div>

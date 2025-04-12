@@ -17,56 +17,62 @@ export function Services() {
           succeed in all areas of their lives—academically, socially, and
           personally.
         </p>
-        <h2 className="text-2xl text-sky-800 font-semibold mt-6 mb-4">
-          Health & Education Discovery Sessions
-        </h2>
-        <p className="text-lg mb-6">
-          Start your journey with a Discovery Session, where we assess
-          strengths, challenges, and goals. These sessions help identify key
-          areas of need and craft a tailored plan for success. Whether seeking
-          support for executive functioning, speech-language concerns, or
-          learning differences, this first step provides clarity and direction.
-        </p>
-        <img
-          className="w-full h-64 object-cover mb-6"
-          src="/discovery-center.jpg"
-          alt="Discovery Session"
-        />
-        <ul className="list-disc list-inside text-lg mb-6 text-left">
-          <li>
-            Identify underlying difficulties in processing, organization, and
-            communication
-          </li>
-          <li>Gain insights into strategies for success</li>
-          <li>Personalized roadmap for growth</li>
-        </ul>
-
-        <h2 className="text-2xl text-sky-800 font-semibold mt-6 mb-4">
-          Comprehensive Speech-Language Evaluations
-        </h2>
-        <p className="text-lg mb-6">
-          Our expert-led <b>Speech-Language Evaluations</b> assess communication
-          skills, cognitive-linguistic abilities, and processing challenges that
-          may impact learning, social interactions, and daily life. Getting an
-          early and accurate diagnosis is super important! It’s the first step
-          to opening the door to effective treatment and helping you feel your
-          best—hidden potential.
-        </p>
-        <img
-          className="w-full h-64 object-cover mb-6"
-          src="/evaluation.jpg"
-          alt="Speech Evaluation"
-        />
-        <ul className="list-disc list-inside text-lg mb-6 text-left">
-          <li>Assess speech clarity, fluency, and comprehension</li>
-          <li>
-            Identify auditory, phonological, and language processing issues
-          </li>
-          <li>
-            Develop individualized treatment plans for lasting improvement
-          </li>
-        </ul>
-
+        <div className="flex gap-7">
+          <div className=" w-full sm:w-1/2 text-left">
+            <h2 className="text-2xl text-sky-800 font-semibold mt-6 mb-4">
+              Health & Education Discovery Sessions
+            </h2>
+            <p className="text-lg mb-6 h-38">
+              Start your journey with a Discovery Session, where we assess
+              strengths, challenges, and goals. These sessions help identify key
+              areas of need and craft a tailored plan for success. Whether
+              seeking support for executive functioning, speech-language
+              concerns, or learning differences, this first step provides
+              clarity and direction.
+            </p>
+            <img
+              className="w-full h-50 object-cover mb-6 rounded-md"
+              src="/discovery-center.jpg"
+              alt="Discovery Session"
+            />
+            <ul className="list-disc list-inside text-lg mb-6">
+              <li>
+                Identify underlying difficulties in processing, organization,
+                and communication
+              </li>
+              <li>Gain insights into strategies for success</li>
+              <li>Personalized roadmap for growth</li>
+            </ul>
+          </div>
+          <div className="w-full md:w-1/2 text-left">
+            <h2 className="text-2xl text-sky-800 font-semibold mt-6 mb-4 text-center">
+              Comprehensive Speech-Language Evaluations
+            </h2>
+            <p className="text-lg mb-6 h-38">
+              Our expert-led <b>Speech-Language Evaluations</b> assess
+              communication skills, cognitive-linguistic abilities, and
+              processing challenges that may impact learning, social
+              interactions, and daily life. Getting an early and accurate
+              diagnosis is super important! It’s the first step to opening the
+              door to effective treatment and helping you feel your best—hidden
+              potential.
+            </p>
+            <img
+              className="w-full h-50 object-cover mb-6 rounded-md"
+              src="/evaluation.jpg"
+              alt="Speech Evaluation"
+            />
+            <ul className="list-disc list-inside text-lg mb-6 text-left">
+              <li>Assess speech clarity, fluency, and comprehension</li>
+              <li>
+                Identify auditory, phonological, and language processing issues
+              </li>
+              <li>
+                Develop individualized treatment plans for lasting improvement
+              </li>
+            </ul>
+          </div>
+        </div>
         <h2 className="text-2xl text-sky-800 font-semibold mt-6 mb-4">
           Holistic Health & Education 12-Week Coaching Program
         </h2>

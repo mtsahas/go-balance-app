@@ -27,6 +27,7 @@ function App() {
             <Route path="/resources" element={<Resources />} />
             <Route path="/specialprograms" element={<SpecialPrograms />} />
           </Routes>
+          {/* <Navbar /> */}
         </div>
       </Router>
     </>

@@ -41,7 +41,7 @@ export function Navbar() {
             About
           </NavLink>
         </li>
-        <li>
+        {/* <li>
           <NavLink
             to="/testimonials"
             onClick={() => setIsOpen(false)}
@@ -50,7 +50,7 @@ export function Navbar() {
             }>
             Testimonials
           </NavLink>
-        </li>
+        </li> */}
         <li>
           <NavLink
             to="/services"
@@ -105,7 +105,7 @@ export function Navbar() {
             onClick={() => setIsOpen(false)}
             buttonLabel="Resources"
             items={[
-              { title: "Recommended Books", url: "resources#books" },
+              { title: "Books", url: "resources#books" },
               {
                 title: "Informational Websites",
                 url: "resources#websites",

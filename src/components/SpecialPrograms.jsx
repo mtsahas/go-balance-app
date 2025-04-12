@@ -27,7 +27,7 @@ export function SpecialPrograms() {
           </ul>
           <p className="mt-4 text-blue-800 hover:underline">
             <a href="https://alertprogram.com" target="_blank">
-              Click here to learn more.
+              https://alertprogram.com
             </a>
           </p>
         </div>
@@ -56,7 +56,7 @@ export function SpecialPrograms() {
           </ul>
           <p className="mt-4 text-blue-800 hover:underline">
             <a href="https://www.interactivemetronome.com" target="_blank">
-              Click here to learn more.
+              https://www.interactivemetronome.com
             </a>
           </p>
         </div>
@@ -84,7 +84,7 @@ export function SpecialPrograms() {
           </ul>
           <p className="mt-4 text-blue-800 hover:underline">
             <a href="https://advancedbrain.com/about-tlp/" target="_blank">
-              Click here to learn more.
+              https://advancedbrain.com/about-tlp/
             </a>
           </p>
         </div>
@@ -101,9 +101,7 @@ export function SpecialPrograms() {
         {programs.map((program, index) => (
           <div
             key={index}
-            className={`bg-white shadow-md rounded-lg p-4 text-center cursor-pointer hover:bg-emerald-50 transition ${
-              activeProgram === index ? " h-fit" : "h-70"
-            }`}
+            className={`bg-white shadow-md rounded-lg p-4 text-center cursor-pointer hover:bg-emerald-50 transition `}
             onClick={() =>
               setActiveProgram(index === activeProgram ? null : index)
             }>
@@ -115,11 +113,9 @@ export function SpecialPrograms() {
             <h2 className="text-xl font-semibold text-sky-800">
               {program.title}
             </h2>
-            {activeProgram === index && (
-              <div className="mt-4 text-left text-gray-700">
-                {program.description}
-              </div>
-            )}
+            <div className="mt-4 text-left text-gray-700">
+              {program.description}
+            </div>
           </div>
         ))}
       </div>

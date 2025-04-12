@@ -12,38 +12,32 @@ export function About() {
           alt="Headshot"
         />
 
-        <p className="text-lg text-sky-800 font-bold pb-2">
+        <p className="text-xl text-sky-800 font-bold pb-2">
           Evaluator. Educator. Coach. Mom.
         </p>
 
-        <p className="text-lg mb-4">
-          I help individuals build strong foundations for learning,
-          communication, and well-being by integrating specialized programs that
-          support brain function, processing, and self-regulation. Whether at
-          home, in school, or professional settings, I am here to guide and
-          empower you toward meaningful, lasting progress.
+        <p className="text-xl mb-4">
+          Hi, I'm Cally Mushka. If your child struggles with learning, focus, or
+          communication—and you're not sure what to do next—you're not alone.
+          I'm here to help you find the answers that others have missed.
         </p>
 
-        <p className="text-lg text-sky-800  font-bold pb-2">
-          My Approach: Go Balance Health – FIG & FIN
-        </p>
-        <p className="text-lg mb-4">
-          With a focus on the whole person, I incorporate evidence-based
-          programs to enhance cognitive skills, executive functions, auditory
-          and language processing. We work together to{" "}
-          <b>Fill-in-the-Gaps (FIG) </b>
-          and utilize <b>Functional Intuitive Nourishment (FIN)</b> to build
-          daily functioning and <b>“balance your health”.</b> I utilize{" "}
-          <b>The Alert Program</b> to support self-regulation, The
-          <b> Interactive Metronome Program</b> to improve timing and
-          coordination, <b>The Listening Program (TLP)</b> to strengthen
-          auditory processing and attention, and{" "}
-          <b>Lindamood-Bell's Visualizing and Verbalizing Program</b> to enhance
-          language comprehension and thinking skills. I help children and adults
-          overcome challenges in learning, communication, and daily life.
+        <p className="text-xl mb-4">
+          My method is simple: We build the foundation first. We look at the
+          brain, the body, and the daily patterns—and we strengthen what’s
+          missing. Then the rest—focus, learning, communication—can finally
+          grow. I call this the FIG & FIN Method: Fill in the Gaps + Fuel with
+          Functional Intuitive Nourishment. It’s not therapy that sits on the
+          surface—it’s transformation from the inside out.
         </p>
 
-        <p className="text-lg text-sky-800 font-bold pb-2">
+        <p className="text-xl mb-4 text-green-800 font-bold">
+          Ready to stop guessing and start seeing real progress? Contact me at
+          gobalancehealth@gmail.com to book a free 15-minute call — let’s talk
+          about what’s possible for you or your child.
+        </p>
+
+        {/* <p className="text-lg text-sky-800 font-bold pb-2">
           Why I Do What I Do
         </p>
         <p className="text-lg mb-4">
@@ -81,9 +75,9 @@ export function About() {
         </p>
 
         <p className="text-lg text-sky-800 font-bold pb-2">
-          If you want to book a free discovery appointment, contact me at
+          If you are ready to schedule a discovery session, contact me at
           gobalancehealth@gmail.com.
-        </p>
+        </p> */}
       </div>
     </div>
   );
