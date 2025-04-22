@@ -141,6 +141,10 @@ export function Resources() {
           url: "https://drjockers.com/adhd/",
         },
         {
+          title: "Dyslexia Advocacy Action Group",
+          url: "https://www.dyslexiaadvocacyactiongroup.org/what-is-dyslexia.html",
+        },
+        {
           title: "Home - Food Intolerance Network ",
           url: "https://www.fedup.com.au",
         },
@@ -218,7 +222,7 @@ export function Resources() {
           {books.map((book, index) => (
             <div
               key={index}
-              className="p-3 h-70 w-40 h-50 sm:w-50 sm:h-60 w-40 md:h-80 md:w-60">
+              className="p-3 h-60 w-40 sm:w-30 sm:h-50 md:h-60 md:w-40">
               <img
                 className=" m-auto"
                 src={book.path}
@@ -235,7 +239,7 @@ export function Resources() {
           Informational Websites
         </h1>
         {websites.map((item, index) => (
-          <div className="px-10" key={index}>
+          <div className="px-10 max-w-4xl" key={index}>
             <h2 className="text-2xl text-emerald-800 font-bold mt-4">
               {item.section}
             </h2>

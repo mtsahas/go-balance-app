@@ -17,12 +17,17 @@ export function Services() {
           succeed in all areas of their lives—academically, socially, and
           personally.
         </p>
-        <div className="flex gap-7">
-          <div className=" w-full sm:w-1/2 text-left">
+        <div className="flex flex-col md:flex-row gap-7">
+          <div className="w-full md:w-1/2 text-left">
             <h2 className="text-2xl text-sky-800 font-semibold mt-6 mb-4">
               Health & Education Discovery Sessions
             </h2>
-            <p className="text-lg mb-6 h-38">
+            <img
+              className="w-full h-50 object-cover mb-6 rounded-md"
+              src="/discovery-center.jpg"
+              alt="Discovery Session"
+            />
+            <p className="text-lg mb-6 h-fit">
               Start your journey with a Discovery Session, where we assess
               strengths, challenges, and goals. These sessions help identify key
               areas of need and craft a tailored plan for success. Whether
@@ -30,11 +35,7 @@ export function Services() {
               concerns, or learning differences, this first step provides
               clarity and direction.
             </p>
-            <img
-              className="w-full h-50 object-cover mb-6 rounded-md"
-              src="/discovery-center.jpg"
-              alt="Discovery Session"
-            />
+
             <ul className="list-disc list-inside text-lg mb-6">
               <li>
                 Identify underlying difficulties in processing, organization,
@@ -45,10 +46,15 @@ export function Services() {
             </ul>
           </div>
           <div className="w-full md:w-1/2 text-left">
-            <h2 className="text-2xl text-sky-800 font-semibold mt-6 mb-4 text-center">
+            <h2 className="text-2xl text-sky-800 font-semibold mt-6 mb-4 text-left">
               Comprehensive Speech-Language Evaluations
             </h2>
-            <p className="text-lg mb-6 h-38">
+            <img
+              className="w-full h-50 object-cover mb-6 rounded-md"
+              src="/evaluation.jpg"
+              alt="Speech Evaluation"
+            />
+            <p className="text-lg mb-6 h-fit">
               Our expert-led <b>Speech-Language Evaluations</b> assess
               communication skills, cognitive-linguistic abilities, and
               processing challenges that may impact learning, social
@@ -57,11 +63,7 @@ export function Services() {
               door to effective treatment and helping you feel your best—hidden
               potential.
             </p>
-            <img
-              className="w-full h-50 object-cover mb-6 rounded-md"
-              src="/evaluation.jpg"
-              alt="Speech Evaluation"
-            />
+
             <ul className="list-disc list-inside text-lg mb-6 text-left">
               <li>Assess speech clarity, fluency, and comprehension</li>
               <li>
@@ -81,7 +83,7 @@ export function Services() {
           adults and families who seek to enhance cognitive skills, processing
           abilities, and overall well-being. Over 12 weeks, we begin the journey
           to strengthen the foundation by building essential skills that create
-          <b>lifelong success</b> in learning and personal development.
+          <b> lifelong success</b> in learning and personal development.
         </p>
         <div className="flex flex-row">
           <img
@@ -140,7 +142,7 @@ export function Services() {
                   improve daily functioning
                 </li>
                 <li>
-                  Understand how to reduce eliminate environmental /
+                  Understand how to reduce eliminate environmental
                   stressors/toxins
                 </li>
               </ul>
@@ -206,13 +208,13 @@ export function Services() {
               </h4>
               <ul className="list-disc list-inside text-lg mb-6 text-left">
                 <li>
-                  Improve the ability to filter and interpret auditory
+                  Improve the ability to discriminate and interpret auditory
                   information
                 </li>
                 <li>Enhance listening skills in noisy environments</li>
                 <li>
-                  Strengthen memory and comprehension through targeted
-                  strategies
+                  Strengthen auditory memory and listening comprehension through
+                  targeted strategies
                 </li>
               </ul>
               <h2>

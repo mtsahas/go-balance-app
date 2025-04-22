@@ -61,9 +61,9 @@ export function About() {
 
         <p className="text-lg text-sky-800  font-bold pb-2">My Background</p>
         <p className="text-lg mb-4">
-          I am a <b>functional/integrative health, nutrition education coach</b>{" "}
-          and <b>a licensed speech-language pathologist</b> with extensive
-          training in searching for underlying causes and filling in the gaps to
+          I am a <b>integrative health and education coach</b>{" "}
+          and <b>a licensed speech-language pathologist in the state of New York.</b> I have experience
+          in searching for underlying causes and filling in the gaps to
           address auditory and language processing, communication challenges,
           and executive functioning. By combining my expertise with innovative
           programs, I provide personalized strategies that support learning,
