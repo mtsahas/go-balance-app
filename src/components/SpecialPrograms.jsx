@@ -34,7 +34,7 @@ export function SpecialPrograms() {
       ),
     },
     {
-      title: "The Interactive Metronome Program",
+      title: "The Interactive Metronome Program®",
       image: "/nature.jpg",
       description: (
         <div>
@@ -42,7 +42,7 @@ export function SpecialPrograms() {
             Improving Timing, Coordination, and Cognitive Processing
           </h3>
           <p>
-            The Interactive Metronome (IM) Program is a cutting-edge,
+            The Interactive Metronome&reg; (IM) Program is a cutting-edge,
             brain-based training system that enhances timing and
             rhythm—essential cognitive and motor function skills. This program
             helps improve attention, coordination, processing speed, and memory.
