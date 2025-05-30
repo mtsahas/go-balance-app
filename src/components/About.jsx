@@ -17,9 +17,10 @@ export function About() {
         </p>
 
         <p className="text-xl mb-4">
-          Hi, I'm Cally Mushka. If your child struggles with learning, focus, or
-          communication—and you're not sure what to do next—you're not alone.
-          I'm here to help you find the answers that others have missed.
+          Hi, I'm Cally Mushka. If you or your loved one struggles with
+          learning, focus, or communication—and you're not sure what to do
+          next—you're not alone. I'm here to help you find the answers that
+          others have missed.
         </p>
 
         <p className="text-xl mb-4">
@@ -34,7 +35,7 @@ export function About() {
         <p className="text-xl mb-4 text-green-800 font-bold">
           Ready to stop guessing and start seeing real progress? Contact me at
           gobalancehealth@gmail.com to book a free 15-minute call — let’s talk
-          about what’s possible for you or your child.
+          about what’s possible for you or your loved one.
         </p>
 
         {/* <p className="text-lg text-sky-800 font-bold pb-2">
